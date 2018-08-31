@@ -1,0 +1,51 @@
+{
+  "background_color": "#fff",
+  "display": "standalone",
+  "theme_color": "#fff",
+
+  "short_name": "DSC - Kisii University",
+  "name": "Developer Student Club Kisii University | Official Website",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/icon.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "images/icon.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ,
+    {
+      "src": "fimages/icon.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ,
+    {
+      "src": "images/icon.png",
+      "type": "image/png",
+      "sizes": "168x168"
+    }
+  ,
+    {
+      "src": "images/icon.png",
+      "type": "image/png",
+      "sizes": "196x196"
+    }
+  ,
+    {
+      "src": "images/icon.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+
+  ],
+  "start_url": "index.html?launcher=true"
+}
