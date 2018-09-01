@@ -3,7 +3,7 @@
 The web template is created for DSC SSA Communities to get showcase to the world their
 success stories, upcoming and past events with pictures & event slides.
 
-[Live Demo](http://dsc.kisiiuniversity.ac.ke)
+[Live Demo](https://dsc-kisiiuni.firebaseapp.com)
 
 ### Creators
 * Kelvin Kamau
