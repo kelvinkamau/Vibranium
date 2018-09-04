@@ -1,3 +1,6 @@
+<p align="center">
+<img width="300" height="100"  src="https://github.com/kelvinkamau/Vibranium/blob/master/images/vibranium.png">
+</p>
 
 # Project Vibranium
 The web template is created for DSC SSA Communities to get showcase to the world their
