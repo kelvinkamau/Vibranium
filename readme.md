@@ -1,5 +1,5 @@
 <p align="center">
-<img width="300" height="100"  src="https://github.com/kelvinkamau/Vibranium/blob/master/images/vibranium.png">
+<img width="300" height="140"  src="https://github.com/kelvinkamau/Vibranium/blob/master/images/vibranium.png">
 </p>
 
 # Project Vibranium
