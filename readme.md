@@ -19,7 +19,6 @@ success stories, upcoming and past events with pictures & event slides.
 * Setup Environment
 * Install Node.js (v8.9.4 or above)
 * Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
-* Log in to firebase ```firebase login```
 * Install project dependencies: ```npm install or yarn```
 * Create a new firebase project [here](https://console.firebase.google.com/)
 * Login into Firebase CLI: ```firebase login```
