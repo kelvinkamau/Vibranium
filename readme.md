@@ -15,15 +15,6 @@ The web template is created for DSC SSA Communities as a platform to showcase th
 
 ### Usage
 * Fork repository and clone it locally
-* Setup Environment
-* Install Node.js (v8.9.4 or above)
-* Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
-* Install project dependencies: ```npm install or yarn```
-* Create a new firebase project [here](https://console.firebase.google.com/)
-* Login into Firebase CLI: ```firebase login```
-* Publish ```firebase deploy```
-
-* Then ```firebase init```
 * Replace values inside ```formfire.js``` with your own firebase config values.
 ```javascript
 var config = {
@@ -35,6 +26,17 @@ var config = {
     messagingSenderId: "XXXXXXXXXXXXXXXXXXXXXX"
 };
 ```
+
+###Firebase Hosting
+* Setup Environment
+* Install Node.js (v8.9.4 or above)
+* Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
+* Install project dependencies: ```npm install or yarn```
+* Create a new firebase project [here](https://console.firebase.google.com/)
+* Login into Firebase CLI: ```firebase login```
+* Publish ```firebase deploy```
+
+* Then ```firebase init```
 
 ### Improvements
 
