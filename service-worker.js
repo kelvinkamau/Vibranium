@@ -48,7 +48,7 @@ self.addEventListener('fetch', function (event) {
                             'https://www.google-analytics.com/analytics.js',
                             'https://fonts.googleapis.com/css?family=Product+Sans',
                             '/service-worker.js',
-                            '/manifest.js',
+                            '/manifest.json',
                         ]);
                     })
                 );
