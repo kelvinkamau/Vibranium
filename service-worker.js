@@ -1,4 +1,3 @@
-console.log("dddddddddddddddddddddddddddddddddddddddd")
 self.addEventListener('fetch', function (event) {
     event.respondWith(caches.open('cache').then(function (cache) {
         return cache.match(event.request).then(function (response) {

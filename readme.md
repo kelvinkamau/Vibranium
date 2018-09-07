@@ -2,20 +2,19 @@
 <img width="300" height="140"  src="https://github.com/kelvinkamau/Vibranium/blob/master/images/vibranium.png">
 </p>
 
-# Project Vibranium
-The web template is created for DSC SSA Communities as a platform to showcase their success stories, upcoming and past events in pictures & event slides to the world .
+# Project Vibranium 🔥
+This awesome Progressive Web App was created for DSC SSA Communities as a profile and a platform to showcase their success stories, upcoming and past events in pictures & event slides to the world.
 
 [Live Demo](https://dsc-kisiiuni.firebaseapp.com)
 
-### Creators
-* Kelvin Kamau 
+### Creators 😎
+* Kelvin Kamau - [DSC Kisii University](http://kisiiuniversity.ac.ke/dsc/) Lead 
 * [DSC Sub Saharan Africa Leads](https://github.com/DSCLEADSAfrica)
 
-### Features
 
 ### Usage
 * Fork repository and clone it locally
-* Replace values inside ```formfire.js``` with your own firebase config values.
+* Replace values inside ```formfire.js``` with your own [firebase](https://firebase.google.com) config values.
 ```javascript
 var config = {
     apiKey: "XXXXXXXXXXXXXXXXXXXXXX",
@@ -28,7 +27,7 @@ var config = {
 ```
 
 ###Firebase Hosting
-* Setup Environment
+Setup Environment
 * Install Node.js (v8.9.4 or above)
 * Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
 * Install project dependencies: ```npm install or yarn```
@@ -36,14 +35,12 @@ var config = {
 * Login into Firebase CLI: ```firebase login```
 * Publish ```firebase deploy```
 
-* Then ```firebase init```
-
 ### Improvements
 
-* Mobile site enhancements
-* Auto-responder after user subscribes
-* Progressive Web App support
-* Push notifications support
+* <s>Mobile site enhancements</s> ✔
+* Auto-responder after user subscribes 💯
+* <s>Progressive Web App support</s> ✔
+* Push notifications support 📢
 
 ## Updating
 Here is a git workflow for updating your fork (or downloaded copy) to the latest version:
@@ -69,11 +66,11 @@ Project Vibranium is an open source software project and I encourage developers 
 ## Versioning
 This project uses [semver](https://semver.org) for versioning. Current version: v1.0.0
 
-###### Buy me a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc)
+###### Buy me a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc) ☕
 
 ## License
 ```
-Copyright (c) 2018 Project Vibranium
+Copyright (c) 2018 Project Vibranium 🔥
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
