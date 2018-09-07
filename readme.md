@@ -3,14 +3,13 @@
 </p>
 
 # Project Vibranium
-The web template is created for DSC SSA Communities to get showcase to the world their
-success stories, upcoming and past events with pictures & event slides.
+The web template is created for DSC SSA Communities as a platform to showcase their success stories, upcoming and past events in pictures & event slides to the world .
 
 [Live Demo](https://dsc-kisiiuni.firebaseapp.com)
 
 ### Creators
-* Kelvin Kamau
-* Buy me a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc)
+* Kelvin Kamau 
+* [DSC Sub Saharan Africa Leads](https://github.com/DSCLEADSAfrica)
 
 ### Features
 
@@ -67,6 +66,8 @@ Project Vibranium is an open source software project and I encourage developers 
 
 ## Versioning
 This project uses [semver](https://semver.org) for versioning. Current version: v1.0.0
+
+###### Buy me a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc)
 
 ## License
 ```
