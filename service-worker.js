@@ -46,6 +46,7 @@ self.addEventListener('fetch', function (event) {
                             '/js/vendors/swiper.min.js',
                             'https://www.google-analytics.com/analytics.js',
                             'https://fonts.googleapis.com/css?family=Product+Sans',
+                            'https://use.fontawesome.com/releases/v5.2.0/css/all.css',
                             '/service-worker.js',
                             '/manifest.json',
                         ]);
