@@ -4,6 +4,15 @@ $(window).on('load', function() {
   $('#loading').addClass('hidden');
 });
 
+var $iframe = $('iframe'),
+    src = $iframe.data('src');
+
+if (window.matchMedia("(min-width: 600px)").matches) {
+    $iframe.attr('src', src);
+}else{
+    $iframe.css('display', 'none');
+}
+
 (function($) {
   'use strict';
 
