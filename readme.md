@@ -14,7 +14,7 @@ This awesome Progressive Web App was created for DSC SSA Communities as a profil
 
 ### Usage
 * Fork repository and clone it locally
-* Run ```sh npm i formfirejs ```
+* Run ``` npm i formfirejs ```
 * Replace values inside ```formfire.js``` with your own [firebase](https://firebase.google.com) config values.
 ```javascript
 var config = {
