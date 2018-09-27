@@ -28,7 +28,6 @@ var config = {
 ```
 
 ### Firebase Hosting
-Setup Environment
 * Install Node.js (v8.9.4 or above)
 * Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
 * Install project dependencies: ```npm install or yarn```
@@ -66,6 +65,24 @@ Project Vibranium is an open source software project and I encourage developers 
 
 ## Versioning
 This project uses [semver](https://semver.org) for versioning. Current version: v1.0.0
+
+## Technology Stack
+
+* [HTML](https://github.com/w3c/html)
+* [Bootstrap](http://getbootstrap.com/)
+* [Firebase](http://angularjs.org/)
+* [FormFireJS](https://github.com/kelvinkamau/formfirejs)
+* [Service Worker & PWA](https://pwafire.org/)
+* [Material Design Bootstrap](https://mdbootstrap.com/)
+
+### View Website Built with Project 
+
+| Community Name | Location | Web App Link | 
+| --- | --- | --- | 
+| DSC Kisii University | Kisii, Kenya | [View Here](https://devfest.gdgjalandhar.com) |
+| DSC Taita Taveta University | Taita Taveta, Kenya | [View Here](https://dsc-ttu.firebaseapp.com/) |
+| DSC Kisii University | Kisii, Kenya | [View Here](https://devfest.gdgjalandhar.com) |
+
 
 ###### Buy me a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc) ☕
 
