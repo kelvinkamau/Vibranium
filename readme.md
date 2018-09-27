@@ -79,9 +79,9 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 
 | Community Name | Location | Web App Link | 
 | --- | --- | --- | 
-| DSC Kisii University | Kisii, Kenya | [View Here](https://devfest.gdgjalandhar.com) |
-| DSC Taita Taveta University | Taita Taveta, Kenya | [View Here](https://dsc-ttu.firebaseapp.com/) |
-| DSC Kisii University | Kisii, Kenya | [View Here](https://devfest.gdgjalandhar.com) |
+| DSC Kisii University | Kisii, Kenya | [Live Here](https://devfest.gdgjalandhar.com) |
+| DSC Taita Taveta University | Taita Taveta, Kenya | [Live Here](https://dsc-ttu.firebaseapp.com/) |
+| DSC Bayero University Kano | Kano, Nigeria | [Live Here](https://dscbuk.club/) |
 
 
 ###### Buy me a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc) ☕
