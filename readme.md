@@ -7,12 +7,12 @@ This awesome Progressive Web App was created for DSC SSA Communities as a profil
 
 [Live Demo](https://dsc-kisiiuni.firebaseapp.com)
 
-### Creators 😎
+## Creators 😎
 * Kelvin Kamau - [DSC Kisii University](http://kisiiuniversity.ac.ke/dsc/) Lead 
 * [DSC Sub Saharan Africa Leads](https://github.com/DSCLEADSAfrica)
 
 
-### Usage
+## Usage
 * Fork repository and clone it locally
 * Run ``` npm i formfirejs ```
 * Replace values inside ```formfire.js``` with your own [firebase](https://firebase.google.com) config values.
@@ -35,7 +35,7 @@ var config = {
 * Login into Firebase CLI: ```firebase login```
 * Publish ```firebase deploy```
 
-### Improvements
+## Improvements
 
 * <s>Mobile site enhancements</s> ✔
 * Auto-responder after user subscribes 💯
@@ -75,7 +75,7 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 * [Service Worker & PWA](https://pwafire.org/)
 * [Material Design Bootstrap](https://mdbootstrap.com/)
 
-### View Website Built with Project 
+## View Websites Built with Project Vibranium
 
 | Community Name | Location | Web App Link | 
 | --- | --- | --- | 
@@ -84,7 +84,7 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 | DSC Bayero University Kano | Kano, Nigeria | [Live Here](https://dscbuk.club/) |
 
 
-###### Buy me a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc) ☕
+#### Buy us a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc) ☕
 
 ## License
 ```
