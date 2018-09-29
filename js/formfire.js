@@ -16,7 +16,6 @@ function submitForm(e) {
     e.preventDefault();
     let email = getInputVal('email');
     saveMessage(email);
-    console.log("Bikini tops");
     document.querySelector('.alert').style.display = 'block';
     setTimeout(function () {
         document.querySelector('.alert').style.display = 'none';

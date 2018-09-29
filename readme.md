@@ -2,26 +2,20 @@
 <img width="300" height="140"  src="https://github.com/kelvinkamau/Vibranium/blob/master/images/vibranium.png">
 </p>
 
-# Project Vibranium
-The web template is created for DSC SSA Communities to get showcase to the world their
-success stories, upcoming and past events with pictures & event slides.
+# Project Vibranium 🔥
+This awesome Progressive Web App was created for DSC SSA Communities as a profile and a platform to showcase their success stories, upcoming and past events in pictures & event slides to the world.
 
 [Live Demo](https://dsc-kisiiuni.firebaseapp.com)
 
-### Creators
-* Kelvin Kamau
-* Buy me a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc)
+## Creators 😎
+* Kelvin Kamau - [DSC Kisii University](http://kisiiuniversity.ac.ke/dsc/) Lead 
+* [DSC Sub Saharan Africa Leads](https://github.com/DSCLEADSAfrica)
 
-### Features
 
-### Usage
+## Usage
 * Fork repository and clone it locally
-* Setup Environment
-* Install Node.js (v8.9.4 or above)
-* Install Firebase CLI: ```npm i -g firebase-tools or yarn global add firebase-tools```
-* Install project dependencies: ```npm install or yarn```
-* Login into Firebase CLI: ```firebase login```
-* Replace values inside ```formfire.js``` with your own firebase config values.
+* Run ``` npm i formfirejs ```
+* Replace values inside ```formfire.js``` with your own [firebase](https://firebase.google.com) config values.
 ```javascript
 var config = {
     apiKey: "XXXXXXXXXXXXXXXXXXXXXX",
@@ -33,12 +27,20 @@ var config = {
 };
 ```
 
-### Improvements
+### Firebase Hosting
+* Install Node.js (v8.9.4 or above)
+* Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
+* Install project dependencies: ```npm install or yarn```
+* Create a new firebase project [here](https://console.firebase.google.com/)
+* Login into Firebase CLI: ```firebase login```
+* Publish ```firebase deploy```
 
-* Mobile site enhancements
-* Auto-responder after user subscribes
-* Progressive Web App support
-* Push notifications support
+## Improvements
+
+* <s>Mobile site enhancements</s> ✔
+* Auto-responder after user subscribes 💯
+* <s>Progressive Web App support</s> ✔
+* Push notifications support 📢
 
 ## Updating
 Here is a git workflow for updating your fork (or downloaded copy) to the latest version:
@@ -64,9 +66,29 @@ Project Vibranium is an open source software project and I encourage developers 
 ## Versioning
 This project uses [semver](https://semver.org) for versioning. Current version: v1.0.0
 
+## Technology Stack
+
+* [HTML](https://github.com/w3c/html)
+* [Bootstrap](http://getbootstrap.com/)
+* [Firebase](http://angularjs.org/)
+* [FormFireJS](https://github.com/kelvinkamau/formfirejs)
+* [Service Worker & PWA](https://pwafire.org/)
+* [Material Design Bootstrap](https://mdbootstrap.com/)
+
+## View Websites Built with Project Vibranium
+
+| Community Name | Location | Web App Link | 
+| --- | --- | --- | 
+| DSC Kisii University | Kisii, Kenya | [Live Here](https://devfest.gdgjalandhar.com) |
+| DSC Taita Taveta University | Taita Taveta, Kenya | [Live Here](https://dsc-ttu.firebaseapp.com/) |
+| DSC Bayero University Kano | Kano, Nigeria | [Live Here](https://dscbuk.club/) |
+
+
+#### Buy us a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc) ☕
+
 ## License
 ```
-Copyright (c) 2018 Project Vibranium
+Copyright (c) 2018 Project Vibranium 🔥
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -10,12 +10,12 @@
 	.st4{font-family:'ProductSans-Regular';}
 	.st5{font-size:21.9376px;}
 	.st6{font-size:23.4824px;}
-	.st7{clip-path:url(#SVGID_2_);enable-background:new    ;}
+	.st7{clip-path:url(#SVGID_8_);enable-background:new    ;}
 	.st8{fill:#606060;}
 	.st9{font-family:'TTNorms-Bold';}
 	.st10{font-size:21.5063px;}
-	.st11{fill:#333333;stroke:#333333;stroke-miterlimit:10;}
-	.st12{font-size:24.1026px;}
+	.st11{fill:#1D1D1B;stroke:#1D1D1B;stroke-width:0.5;stroke-miterlimit:10;}
+	.st12{font-size:23px;}
 </style>
 <title>logo</title>
 <desc>Created with Sketch.</desc>
@@ -25,28 +25,28 @@
 			<g>
 				<g>
 					<g>
-						<g>
-							<defs>
-								<rect id="SVGID_1_" x="1.8" y="1" width="38" height="38"/>
-							</defs>
-							<clipPath id="SVGID_2_">
-								<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-							</clipPath>
-							<g class="st0">
+						<defs>
+							<rect id="SVGID_1_" x="2.9" y="1" width="38" height="38"/>
+						</defs>
+						<clipPath id="SVGID_2_">
+							<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st0">
+							<g>
 								<g>
 									<g>
 										<g>
 											<g>
 												<g>
 													<defs>
-														<rect id="SVGID_3_" x="1.8" y="1" width="38" height="38"/>
+														<rect id="SVGID_3_" x="2.9" y="1" width="38" height="38"/>
 													</defs>
 													<clipPath id="SVGID_4_">
 														<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
 													</clipPath>
 													<g class="st1">
 														
-															<image style="overflow:visible;enable-background:new    ;" width="526" height="526" xlink:href="6AD9AF8D.png"  transform="matrix(7.200000e-02 0 0 7.200000e-02 1.8053 1.0256)">
+															<image style="overflow:visible;enable-background:new    ;" width="526" height="526" xlink:href="6AD9AF8D.png"  transform="matrix(7.200000e-02 0 0 7.200000e-02 2.9181 1.0256)">
 														</image>
 													</g>
 												</g>
@@ -55,33 +55,43 @@
 												<g>
 													<g>
 														<g>
-															<defs>
-																<rect id="SVGID_5_" x="1.8" y="1" width="38" height="38"/>
-															</defs>
-															<clipPath id="SVGID_6_">
-																<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
-															</clipPath>
-															<g class="st2">
-																<text transform="matrix(1 0 0 1 46.1797 26.4546)" class="st3 st4 st5">DSC Kisii University</text>
+															<g>
+																<defs>
+																	<rect id="SVGID_5_" x="2.9" y="1" width="38" height="38"/>
+																</defs>
+																<clipPath id="SVGID_6_">
+																	<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+																</clipPath>
+																<g class="st2">
+																	<text transform="matrix(1 0 0 1 47.2925 26.4551)" class="st3 st4 st5">DSC Kisii University</text>
+																</g>
 															</g>
 														</g>
 													</g>
+													<text transform="matrix(1 0 0 1 45.6128 27.4434)" class="st4 st6">DSC Kisii University</text>
 												</g>
-												<text transform="matrix(1 0 0 1 44.5 27.4434)" class="st4 st6">DSC Kisii University</text>
 											</g>
 										</g>
 									</g>
 								</g>
-							</g>
-							<g class="st7">
-								<text transform="matrix(1 0 0 1 48.0752 27.0146)" class="st8 st9 st10">DSC Kisii University</text>
+								<g>
+									<defs>
+										<rect id="SVGID_7_" x="2.9" y="1" width="38" height="38"/>
+									</defs>
+									<clipPath id="SVGID_8_">
+										<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+									</clipPath>
+									<g class="st7">
+										<text transform="matrix(1 0 0 1 49.188 27.0146)" class="st8 st9 st10">DSC Kisii University</text>
+									</g>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
 		</g>
+		<text transform="matrix(1 0 0 1 40.5044 26.2148)" class="st11 st4 st12">DSC University Name</text>
 	</g>
-	<text transform="matrix(1 0 0 1 47.3916 27.7144)" class="st11 st4 st12">DSC Kisii University</text>
 </g>
 </svg>

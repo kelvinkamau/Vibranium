@@ -1,7 +1,30 @@
-// PRELOADER
+
 $(window).on('load', function() {
   'use strict';
   $('#loading').addClass('hidden');
+});
+
+var $iframe = $('iframe'),
+    src = $iframe.data('src');
+
+if (window.matchMedia("(min-width: 720px)").matches) {
+    $iframe.attr('src', src);
+}else{
+    $iframe.css('display', 'none');
+}
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('#scroll').fadeIn();
+        } else {
+            $('#scroll').fadeOut();
+        }
+    });
+    $('#scroll').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
 });
 
 (function($) {
