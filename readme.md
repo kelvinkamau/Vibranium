@@ -5,7 +5,7 @@
 # Project Vibranium 🔥
 This awesome Progressive Web App was created for DSC SSA Communities as a profile and a platform to showcase their success stories, upcoming and past events in pictures & event slides to the world.
 
-[Live Demo](https://dsc-kisiiuni.firebaseapp.com)
+[Live Demo](https://vibranium-demo.firebaseapp.com)
 
 ## Creators 😎
 * Kelvin Kamau - [DSC Kisii University](http://kisiiuniversity.ac.ke/dsc/) Lead 
