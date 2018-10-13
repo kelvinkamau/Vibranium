@@ -3,12 +3,11 @@
 </p>
 
 # Project Vibranium 🔥
-This awesome Progressive Web App was created for DSC SSA Communities as a profile and a platform to showcase their success stories, upcoming and past events in pictures & event slides to the world.
+This awesome Progressive Web App was created for Developer Student Clubs in Sub Saharan Africa as a profile and a platform to showcase what they're upto in events, outreach to local businesses and showcases and most importantly their success stories to the world.
 
 [Live Demo](https://vibranium-demo.firebaseapp.com)
 
 ## Creators 😎
-* Kelvin Kamau - [DSC Kisii University](http://kisiiuniversity.ac.ke/dsc/) Lead 
 * [DSC Sub Saharan Africa Leads](https://github.com/DSCLEADSAfrica)
 
 
@@ -68,18 +67,15 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 
 ## Technology Stack
 
-* [HTML](https://github.com/w3c/html)
-* [Bootstrap](http://getbootstrap.com/)
-* [Firebase](http://angularjs.org/)
+* [HTML5](https://github.com/w3c/html)
+* [Firebase](https://firebase.google.com/)
 * [FormFireJS](https://github.com/kelvinkamau/formfirejs)
-* [Service Worker & PWA](https://pwafire.org/)
-* [Material Design Bootstrap](https://mdbootstrap.com/)
 
 ## View Websites Built with Project Vibranium
 
 | Community Name | Location | Web App Link | 
 | --- | --- | --- | 
-| DSC Kisii University | Kisii, Kenya | [Live Here](https://devfest.gdgjalandhar.com) |
+| DSC Kisii University | Kisii, Kenya | [Live Here](https://dsc-kisiiuni.firebaseapp.com/) |
 | DSC Taita Taveta University | Taita Taveta, Kenya | [Live Here](https://dsc-ttu.firebaseapp.com/) |
 | DSC Bayero University Kano | Kano, Nigeria | [Live Here](https://dscbuk.club/) |
 
