@@ -78,6 +78,7 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 | DSC Kisii University | Kisii, Kenya | [Live Here](https://dsc-kisiiuni.firebaseapp.com/) |
 | DSC Taita Taveta University | Taita Taveta, Kenya | [Live Here](https://dsc-ttu.firebaseapp.com/) |
 | DSC Bayero University Kano | Kano, Nigeria | [Live Here](https://dscbuk.club/) |
+| DSC Yabatech | Nigeria | [Live Here](https://dscyabatech.firebaseapp.com/) |
 
 
 #### Buy us a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc) ☕
