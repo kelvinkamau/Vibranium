@@ -1810,3 +1810,18 @@ color: black;
     filter: "alpha(opacity=100)";
     -ms-filter: "alpha(opacity=100)"
 }
+/* Style For pending Event */
+.event-off {
+  color: #696969;
+  font-weight: 100;
+}
+
+.btn .btn-off .btn-off:focus,
+.btn-off:visited {
+  background: #d4d4d4;
+}
+
+.btn-off:hover {
+  box-shadow: none;
+  background: #d4d4d4;
+}
