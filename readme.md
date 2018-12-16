@@ -5,7 +5,9 @@
 # Project Vibranium 🔥
 This awesome Progressive Web App was created for Developer Student Clubs in Sub Saharan Africa as a profile and a platform to showcase what they're upto in events, outreach to local businesses and showcases and most importantly their success stories to the world.
 
-[Live Demo](https://vibranium-demo.firebaseapp.com)
+[Live Demo 1](https://vibranium-demo.firebaseapp.com) 
+
+[Special Holiday Edition](https://kelvinkamau.github.io/Vibranium/) by [Stella Kaniaru](https://github.com/stellakaniaru)
 
 ## Creators 😎
 * [DSC Sub Saharan Africa Leads](https://github.com/DSCLEADSAfrica)
