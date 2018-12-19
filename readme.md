@@ -16,6 +16,8 @@ This awesome Progressive Web App was created for Developer Student Clubs in Sub 
 ## Usage
 * Fork repository and clone it locally
 * Run ``` npm i formfirejs ```
+* Create a new project on [firebase](https://firebase.google.com)
+* Click add to Web app icon to get config values. 
 * Replace values inside ```formfire.js``` with your own [firebase](https://firebase.google.com) config values.
 ```javascript
 var config = {
@@ -28,12 +30,20 @@ var config = {
 };
 ```
 
+
 ### Firebase Hosting
 * Install Node.js (v8.9.4 or above)
-* Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
+* launch command prompt/terminal 
+* cd documents
+* git clone https://github.com/kelvinkamau/Vibranium
+* cd Vibranium 
 * Install project dependencies: ```npm install or yarn```
+* Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
 * Create a new firebase project [here](https://console.firebase.google.com/)
 * Login into Firebase CLI: ```firebase login```
+* Type ```firebase init``` to create a firebase.json
+* Copy the static files (JS,CSS, Assets folders,index.html file) into a newly created 'Y' or 'N' folder
+* Add project from firebase console using ```firebase -add project-name```
 * Publish ```firebase deploy```
 
 ## Improvements
