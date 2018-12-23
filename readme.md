@@ -3,12 +3,13 @@
 </p>
 
 # Project Vibranium 🔥
-This awesome Progressive Web App was created for DSC SSA Communities as a profile and a platform to showcase their success stories, upcoming and past events in pictures & event slides to the world.
+This awesome Progressive Web App was created for Developer Student Clubs in Sub Saharan Africa as a profile and a platform to showcase what they're upto in events, outreach to local businesses and showcases and most importantly their success stories to the world.
 
-[Live Demo](https://vibranium-demo.firebaseapp.com)
+[Live Demo 1](https://vibranium-demo.firebaseapp.com) 
+
+[Special Holiday Edition](https://kelvinkamau.github.io/Vibranium/) by [Stella Kaniaru](https://github.com/stellakaniaru)
 
 ## Creators 😎
-* Kelvin Kamau - [DSC Kisii University](http://kisiiuniversity.ac.ke/dsc/) Lead 
 * [DSC Sub Saharan Africa Leads](https://github.com/DSCLEADSAfrica)
 
 
@@ -17,15 +18,7 @@ This awesome Progressive Web App was created for DSC SSA Communities as a profil
 
 ### Firebase Hosting
 * Create a new firebase project [here](https://console.firebase.google.com/)
-* On the ````Database```` tab, create a new databaase
-    * Click on the ```rules``` tab and set permissions
-        ```{
-             "rules": {
-               ".read": "true",
-               ".write": "true"
-             }
-           }
-        ```
+* Click add to Web app icon to get config values.
 * Replace values inside ```formfire.js``` with your own [firebase](https://firebase.google.com) config values.
 ```javascript
 var config = {
@@ -36,14 +29,31 @@ var config = {
     storageBucket: "XXXXXXXXXXXXXXXXXXXXXX",
     messagingSenderId: "XXXXXXXXXXXXXXXXXXXXXX"
 };
-```
+``` 
+* On the ````Database```` tab, create a new databaase
+    * Click on the ```rules``` tab and set permissions
+        ```{
+             "rules": {
+               ".read": "true",
+               ".write": "true"
+             }
+           }
+        ```
+
+
+### Firebase Hosting
 * Install Node.js (v8.9.4 or above)
-* Install FormFire JS ```npm i formfirejs```
+* launch command prompt/terminal 
+* cd Documents/
+* git clone https://github.com/kelvinkamau/Vibranium
+* cd Vibranium 
+* Install project dependencies: ```npm install or yarn install```
 * Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
-* Install project dependencies: ```npm install or yarn``` (This isn't currently necessary)
+* Create a new firebase project [here](https://console.firebase.google.com/)
 * Login into Firebase CLI: ```firebase login```
-* Create a new project by running ```firebase init``` and selecting the project that we created previously.
-* Select the necessary containers(we will use hosting and database in this case)
+* Type ```firebase init``` to create a firebase.json
+* Copy the static files (JS,CSS, Assets folders,index.html file) into a newly created 'Y' or 'N' folder(Public)
+* Add project from firebase console using ```firebase -add project-name```
 * Publish ```firebase deploy```
 
 ## Improvements
@@ -80,21 +90,20 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 
 ## Technology Stack
 
-* [HTML](https://github.com/w3c/html)
-* [Bootstrap](http://getbootstrap.com/)
-* [Firebase](http://angularjs.org/)
+* [HTML5](https://github.com/w3c/html)
+* [Firebase](https://firebase.google.com/)
 * [FormFireJS](https://github.com/kelvinkamau/formfirejs)
-* [Service Worker & PWA](https://pwafire.org/)
-* [Material Design Bootstrap](https://mdbootstrap.com/)
 
 ## View Websites Built with Project Vibranium
 
 | Community Name | Location | Web App Link | 
 | --- | --- | --- | 
-| DSC Kisii University | Kisii, Kenya | [Live Here](https://devfest.gdgjalandhar.com) |
+| DSC Kisii University | Kisii, Kenya | [Live Here](https://dsc-kisiiuni.firebaseapp.com/) |
 | DSC Taita Taveta University | Taita Taveta, Kenya | [Live Here](https://dsc-ttu.firebaseapp.com/) |
 | DSC Bayero University Kano | Kano, Nigeria | [Live Here](https://dscbuk.club/) |
 | DSC University of Nairobi | Nairobi, Kenya | [Live Here](https://dsc-uon.firebaseapp.com) | 
+| DSC Yabatech | Nigeria | [Live Here](https://dscyabatech.firebaseapp.com/) |
+| SemaPay | Kenya | [Live Here](https://semapay.co.ke/) |
 
 
 #### Buy us a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc) ☕
