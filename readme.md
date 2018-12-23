@@ -14,7 +14,18 @@ This awesome Progressive Web App was created for DSC SSA Communities as a profil
 
 ## Usage
 * Fork repository and clone it locally
-* Run ``` npm i formfirejs ```
+
+### Firebase Hosting
+* Create a new firebase project [here](https://console.firebase.google.com/)
+* On the ````Database```` tab, create a new databaase
+    * Click on the ```rules``` tab and set permissions
+        ```{
+             "rules": {
+               ".read": "true",
+               ".write": "true"
+             }
+           }
+        ```
 * Replace values inside ```formfire.js``` with your own [firebase](https://firebase.google.com) config values.
 ```javascript
 var config = {
@@ -26,18 +37,19 @@ var config = {
     messagingSenderId: "XXXXXXXXXXXXXXXXXXXXXX"
 };
 ```
-
-### Firebase Hosting
 * Install Node.js (v8.9.4 or above)
+* Install FormFire JS ```npm i formfirejs```
 * Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
-* Install project dependencies: ```npm install or yarn```
-* Create a new firebase project [here](https://console.firebase.google.com/)
+* Install project dependencies: ```npm install or yarn``` (This isn't currently necessary)
 * Login into Firebase CLI: ```firebase login```
+* Create a new project by running ```firebase init``` and selecting the project that we created previously.
+* Select the necessary containers(we will use hosting and database in this case)
 * Publish ```firebase deploy```
 
 ## Improvements
 
 * <s>Mobile site enhancements</s> ✔
+* <s>Christmas easter eggs</s> ✔
 * Auto-responder after user subscribes 💯
 * <s>Progressive Web App support</s> ✔
 * Push notifications support 📢
@@ -82,6 +94,7 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 | DSC Kisii University | Kisii, Kenya | [Live Here](https://devfest.gdgjalandhar.com) |
 | DSC Taita Taveta University | Taita Taveta, Kenya | [Live Here](https://dsc-ttu.firebaseapp.com/) |
 | DSC Bayero University Kano | Kano, Nigeria | [Live Here](https://dscbuk.club/) |
+| DSC University of Nairobi | Nairobi, Kenya | [Live Here](https://dsc-uon.firebaseapp.com) | 
 
 
 #### Buy us a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc) ☕
