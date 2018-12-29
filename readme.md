@@ -15,10 +15,9 @@ This awesome Progressive Web App was created for Developer Student Clubs in Sub 
 
 ## Usage
 * Fork repository and clone it locally
-
-### Firebase Hosting
-* Create a new firebase project [here](https://console.firebase.google.com/)
-* Click add to Web app icon to get config values.
+* Run ``` npm i formfirejs ```
+* Create a new project on [firebase](https://firebase.google.com)
+* Click add to Web app icon to get config values. 
 * Replace values inside ```formfire.js``` with your own [firebase](https://firebase.google.com) config values.
 ```javascript
 var config = {
@@ -29,37 +28,27 @@ var config = {
     storageBucket: "XXXXXXXXXXXXXXXXXXXXXX",
     messagingSenderId: "XXXXXXXXXXXXXXXXXXXXXX"
 };
-``` 
-* On the ````Database```` tab, create a new databaase
-    * Click on the ```rules``` tab and set permissions
-        ```{
-             "rules": {
-               ".read": "true",
-               ".write": "true"
-             }
-           }
-        ```
+```
 
 
 ### Firebase Hosting
 * Install Node.js (v8.9.4 or above)
 * launch command prompt/terminal 
-* cd Documents/
+* cd documents
 * git clone https://github.com/kelvinkamau/Vibranium
 * cd Vibranium 
-* Install project dependencies: ```npm install or yarn install```
+* Install project dependencies: ```npm install or yarn```
 * Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
 * Create a new firebase project [here](https://console.firebase.google.com/)
 * Login into Firebase CLI: ```firebase login```
 * Type ```firebase init``` to create a firebase.json
-* Copy the static files (JS,CSS, Assets folders,index.html file) into a newly created 'Y' or 'N' folder(Public)
+* Copy the static files (JS,CSS, Assets folders,index.html file) into a newly created 'Y' or 'N' folder
 * Add project from firebase console using ```firebase -add project-name```
 * Publish ```firebase deploy```
 
 ## Improvements
 
 * <s>Mobile site enhancements</s> ✔
-* <s>Christmas easter eggs</s> ✔
 * Auto-responder after user subscribes 💯
 * <s>Progressive Web App support</s> ✔
 * Push notifications support 📢
@@ -101,7 +90,6 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 | DSC Kisii University | Kisii, Kenya | [Live Here](https://dsc-kisiiuni.firebaseapp.com/) |
 | DSC Taita Taveta University | Taita Taveta, Kenya | [Live Here](https://dsc-ttu.firebaseapp.com/) |
 | DSC Bayero University Kano | Kano, Nigeria | [Live Here](https://dscbuk.club/) |
-| DSC University of Nairobi | Nairobi, Kenya | [Live Here](https://dsc-uon.firebaseapp.com) | 
 | DSC Yabatech | Nigeria | [Live Here](https://dscyabatech.firebaseapp.com/) |
 | SemaPay | Kenya | [Live Here](https://semapay.co.ke/) |
 
