@@ -9,6 +9,8 @@ This awesome Progressive Web App was created for Developer Student Clubs in Sub 
 ![](https://img.shields.io/github/forks/kelvinkamau/Vibranium.svg)
 ![](https://img.shields.io/github/license/kelvinkamau/Vibranium.svg)
 ![](https://img.shields.io/github/stars/kelvinkamau/Vibranium.svg)
+[![](https://img.shields.io/github/languages/count/badges/shields.svg)](https://github.com/kelvinkamau/Vibranium/)
+[![](https://img.shields.io/maintenance/yes/2019.svg)]([![](https://img.shields.io/steam/collection-files/:collectionId.svg)](https://github.com/kelvinkamau/Vibranium/))
 
 [Live Demo 1](https://vibranium-demo.firebaseapp.com) 
 
