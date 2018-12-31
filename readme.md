@@ -9,7 +9,6 @@ This awesome Progressive Web App was created for Developer Student Clubs in Sub 
 ![](https://img.shields.io/badge/Built%20by-DSC%20Sub%20Saharan%20Africa-brightgreen.svg)
 ![](https://img.shields.io/github/forks/kelvinkamau/Vibranium.svg?style=social)
 ![](https://img.shields.io/github/issues/kelvinkamau/Vibranium.svg)
-![](https://img.shields.io/github/forks/kelvinkamau/Vibranium.svg)
 ![](https://img.shields.io/github/license/kelvinkamau/Vibranium.svg)
 ![](https://img.shields.io/github/stars/kelvinkamau/Vibranium.svg)
 [![](https://img.shields.io/github/languages/count/badges/shields.svg)](https://github.com/kelvinkamau/Vibranium/)
