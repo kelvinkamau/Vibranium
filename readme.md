@@ -11,6 +11,7 @@ This awesome Progressive Web App was created for Developer Student Clubs in Sub 
 ![](https://img.shields.io/github/issues/kelvinkamau/Vibranium.svg)
 ![](https://img.shields.io/github/license/kelvinkamau/Vibranium.svg)
 ![](https://img.shields.io/github/stars/kelvinkamau/Vibranium.svg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/088e6d8e5ab2498189ab95e057f1e5ef)](https://app.codacy.com/app/kamaucodes/Vibranium?utm_source=github.com&utm_medium=referral&utm_content=kelvinkamau/Vibranium&utm_campaign=Badge_Grade_Dashboard)
 [![](https://img.shields.io/github/languages/count/badges/shields.svg)](https://github.com/kelvinkamau/Vibranium/)
 [![](https://img.shields.io/maintenance/yes/2019.svg)]([![](https://img.shields.io/steam/collection-files/:collectionId.svg)](https://github.com/kelvinkamau/Vibranium/))
 
