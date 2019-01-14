@@ -13,6 +13,7 @@ This awesome Progressive Web App was created for Developer Student Clubs in Sub 
 [![](https://img.shields.io/github/languages/count/badges/shields.svg)](https://github.com/kelvinkamau/Vibranium/)
 [![](https://img.shields.io/maintenance/yes/2019.svg)]([![](https://img.shields.io/steam/collection-files/:collectionId.svg)](https://github.com/kelvinkamau/Vibranium/))
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9ec27af46e31459f9c11a4c1f5ff6f71)](https://www.codacy.com/app/kamaucodes/Vibranium?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kelvinkamau/Vibranium&amp;utm_campaign=Badge_Grade)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkelvinkamau%2FVibranium.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkelvinkamau%2FVibranium?ref=badge_shield)
 
 [Live Demo 1](https://vibranium-demo.firebaseapp.com) 
 
@@ -127,3 +128,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkelvinkamau%2FVibranium.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkelvinkamau%2FVibranium?ref=badge_large)
