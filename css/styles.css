@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  font-family: "Product Sans", sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-size: 1rem;
   color: #637282;
   overflow-x: hidden;
@@ -20,7 +20,25 @@ body {
 .has-sticky-header {
   padding-top: 72px;
 }
+first-letter {
+  color: #557DBF;
+  font-weight: 400
+}
 
+second-letter {
+  color: #FBBC12;
+  font-weight: 400;
+}
+
+third-letter {
+  color: #E1382B;
+  font-weight: 400;
+}
+
+forth-letter {
+  color: #189E59;
+  font-weight: 400;
+}
 a {
   line-height: 1;
   color: #2F5BE7;
@@ -40,7 +58,7 @@ button:focus, .btn:focus {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #1B2733;
-  font-family: "Product Sans", sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-weight: 700;
 }
 
@@ -53,7 +71,7 @@ h2, .h2 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 15px;
   line-height: 25px;
 }
 
@@ -111,6 +129,9 @@ p {
 
 .section-title {
   text-transform: capitalize;
+}
+.section-title-custom{
+  text-transform: none;
 }
 
 .section-subtitle {
@@ -234,7 +255,7 @@ p {
   line-height: 24px;
   font-weight: 700;
   border-radius: 2px;
-  font-family: "Product Sans", sans-serif;
+  font-family: "Google Sans", sans-serif;
 }
 
 .btn-default {
@@ -263,6 +284,8 @@ p {
 .btn-secondary {
   background: #2F5BE7;
   color: #fff;
+  font-weight: 200;
+  font-size: 16px;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:visited {
@@ -301,7 +324,8 @@ p {
 }
 
 .btn-lg {
-  padding: 15px 30px;
+  font-size: 18px;
+  padding: 10px 20px;
 }
 
 .btn-cta {
@@ -725,9 +749,8 @@ p {
 
 .hero-title {
   font-size: 32px;
-  font-weight: bold;
   line-height: 37px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .hero-title span {
@@ -952,7 +975,7 @@ p {
   font-weight: 700;
   font-size: 30px;
   line-height: 40px;
-  font-family: "Product Sans", sans-serif;
+  font-family: "Google Sans", sans-serif;
 }
 
 .workshops-currency {
@@ -1074,12 +1097,14 @@ hr{
   margin-left: auto;
   margin-right: auto;
 }
-
 .section-faq .card {
   border: 0;
   margin-bottom: 30px;
 }
-
+.section-opp .card{
+  margin-bottom: 0;
+  border: 0;
+}
 .section-faq .card-title {
   margin-bottom: 15px;
 }
@@ -1809,4 +1834,26 @@ color: black;
     opacity: 1;
     filter: "alpha(opacity=100)";
     -ms-filter: "alpha(opacity=100)"
+}
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #0080ff;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
 }
