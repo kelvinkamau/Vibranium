@@ -484,7 +484,7 @@ p {
   -webkit-box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
   box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
   border-radius: 5px;
-  border-top: 50px;
+    margin-bottom: 20px;
 }
 .feature-card {
   -webkit-box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
