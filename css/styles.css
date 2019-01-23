@@ -62,6 +62,9 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 700;
 }
 
+h2{
+  font-size: 28px
+}
 h1 {
   line-height: 32px;
 }
@@ -973,7 +976,7 @@ p {
 
 .workshops-value {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 40px;
   font-family: "Google Sans", sans-serif;
 }
