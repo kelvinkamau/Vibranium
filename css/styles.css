@@ -272,12 +272,10 @@ p {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
-  -webkit-transform: translate(1px, -1px);
-          transform: translate(1px, -1px);
+
   background: #3BC1FD;
-  color: #1B2733;
-  -webkit-box-shadow: -5px 5px 0 rgba(47, 91, 231, 0.8);
-          box-shadow: -5px 5px 0 rgba(47, 91, 231, 0.8);
+  color: #FFFFFF;
+
 }
 
 .btn-secondary {
@@ -488,6 +486,29 @@ p {
 }
 .card{
   margin-bottom: 20px;
+  border-radius: 8px;
+}
+.tagging{
+  display: inline-flex;
+  border-radius: 15px;
+  font-size: 12px;
+  padding: 0 0.8rem;
+  max-width: 100px;
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+}
+.intermediate{
+  background-color: rgba(47, 231, 177, 0.2);
+  color: #3BC1FD;
+}
+.beginner{
+  background-color: rgba(0, 255, 133, 0.2);
+  color: #4AA277;
+}
+.expert{
+  background-color: rgba(253, 125, 68, 0.2);
+  color: #FD7D44;
 }
 
 .project-card .btn{
@@ -1013,7 +1034,6 @@ h6{
   position: relative;
 }
 hr{
-  width: 78%;
     height: 0.1px;
     background-color: rgba(99, 114, 130, 0.8);
 }
