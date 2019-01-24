@@ -480,11 +480,18 @@ p {
   border-top-color: #2F5BE7 !important;
   opacity: 1;
 }
-.event-card{
+.event-card {
   -webkit-box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
   box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
   border-radius: 5px;
     margin-bottom: 20px;
+}
+.card{
+  margin-bottom: 20px;
+}
+
+.project-card .btn{
+
 }
 .feature-card {
   -webkit-box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
@@ -1006,7 +1013,8 @@ h6{
   position: relative;
 }
 hr{
-    height: 0.2px;
+  width: 78%;
+    height: 0.1px;
     background-color: rgba(99, 114, 130, 0.8);
 }
 .workshops-list__item:before {
