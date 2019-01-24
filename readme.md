@@ -104,6 +104,7 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 | SemaPay | Kenya | [Live Here](https://semapay.co.ke/) |
 | DSC University of Nairobi | Nairobi Kenya | [Live Here](https://dsc-uon.firebaseapp.com) |
 | DSC FUTA | Nigeria | [Live Here](https://dscfuta.com) |
+| DSC IBBUL | Nigeria | [Live Here](https://dscibbul.club)
 
 
 #### Buy us a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc) ☕
