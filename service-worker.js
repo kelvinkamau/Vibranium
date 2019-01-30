@@ -38,7 +38,6 @@ self.addEventListener('fetch', function (event) {
                             '/images/assets/technologies/web.png',
                             '/images/icon.png',
                             '/js/custom.js',
-                            '/js/formfire.js',
                             '/js/vendors/bootstrap.bundle.min.js',
                             '/js/vendors/jquery.easing.min.js',
                             '/js/vendors/jquery.magnific-popup.min.js',
