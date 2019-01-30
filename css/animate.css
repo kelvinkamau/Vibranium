@@ -1901,8 +1901,8 @@
 }
 
 .flipInX {
-  -webkit-backface-visibility: visible !important;
-  backface-visibility: visible !important;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
   -webkit-animation-name: flipInX;
   animation-name: flipInX;
 }
@@ -1974,8 +1974,8 @@
 }
 
 .flipInY {
-  -webkit-backface-visibility: visible !important;
-  backface-visibility: visible !important;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
   -webkit-animation-name: flipInY;
   animation-name: flipInY;
 }
@@ -2021,8 +2021,8 @@
 .flipOutX {
   -webkit-animation-name: flipOutX;
   animation-name: flipOutX;
-  -webkit-backface-visibility: visible !important;
-  backface-visibility: visible !important;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
 }
 
 @-webkit-keyframes flipOutY {
@@ -2064,8 +2064,8 @@
 }
 
 .flipOutY {
-  -webkit-backface-visibility: visible !important;
-  backface-visibility: visible !important;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
   -webkit-animation-name: flipOutY;
   animation-name: flipOutY;
 }

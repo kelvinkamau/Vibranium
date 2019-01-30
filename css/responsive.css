@@ -58,11 +58,11 @@ RESPONSIVES
     margin: 0;
   }
   .mfp-close {
-    left: 50% !important;
-    -webkit-transform: translateX(-50%) !important;
-            transform: translateX(-50%) !important;
-    top: auto !important;
-    bottom: -80px !important;
+    left: 50%  ;
+    -webkit-transform: translateX(-50%)  ;
+            transform: translateX(-50%)  ;
+    top: auto  ;
+    bottom: -80px  ;
   }
   .section-screens__inner {
     margin-bottom: 50px;
@@ -80,15 +80,15 @@ RESPONSIVES
             flex-direction: column;
   }
   .input-group .form-control {
-    border: 1px solid #1B2733 !important;
+    border: 1px solid #1B2733  ;
     width: 100%;
     margin-bottom: 10px;
-    border-top-right-radius: 2px !important;
-    border-bottom-right-radius: 2px !important;
+    border-top-right-radius: 2px  ;
+    border-bottom-right-radius: 2px  ;
   }
   .input-group .btn {
-    border-top-left-radius: 2px !important;
-    border-bottom-left-radius: 2px !important;
+    border-top-left-radius: 2px  ;
+    border-bottom-left-radius: 2px  ;
   }
   .workshops-single {
     margin-bottom: 40px;
