@@ -25,21 +25,9 @@ This awesome Progressive Web App was created for Developer Student Clubs in Sub 
 
 ## Usage
 * Fork repository and clone it locally
-* Run ``` npm i formfirejs ```
-* Create a new project on [firebase](https://firebase.google.com)
-* Click add to Web app icon to get config values. 
-* Replace values inside ```formfire.js``` with your own [firebase](https://firebase.google.com) config values.
-```javascript
-var config = {
-    apiKey: "XXXXXXXXXXXXXXXXXXXXXX",
-    authDomain: "XXXXXXXXXXXXXXXXXXXXXX",
-    databaseURL: "XXXXXXXXXXXXXXXXXXXXXX",
-    projectId: "XXXXXXXXXXXXXXXXXXXXXX",
-    storageBucket: "XXXXXXXXXXXXXXXXXXXXXX",
-    messagingSenderId: "XXXXXXXXXXXXXXXXXXXXXX"
-};
-```
-
+* Customize the content inside the following files only ```index.html```, ```learn.html``` & ```project.html```
+* Publish your site
+* Share the goodness of this awesome web template by sharing it & leaving a star on the repo
 
 ### Firebase Hosting
 * Install Node.js (v8.9.4 or above)
@@ -59,7 +47,8 @@ var config = {
 ## Improvements
 
 * <s>Mobile site enhancements</s> ✔
-* Auto-responder after user subscribes 💯
+* <s>Add tutorials page</s> ✔
+* <s>Add projects showcase page</s> ✔
 * <s>Progressive Web App support</s> ✔
 * Push notifications support 📢
 
@@ -85,24 +74,18 @@ Project Vibranium is an open source software project and I encourage developers 
     * A pull request with a breaking test would be super preferable here but isn't required
 
 ## Versioning
-This project uses [semver](https://semver.org) for versioning. Current version: v1.0.0
+This project uses [semver](https://semver.org) for versioning. Current version: v2.0.0
 
-## Technology Stack
-
-* [HTML5](https://github.com/w3c/html)
-* [Firebase](https://firebase.google.com/)
-* [FormFireJS](https://github.com/kelvinkamau/formfirejs)
-
-## View Websites Built with Project Vibranium
+## Websites using Project Vibranium
 
 | Community Name | Location | Web App Link | 
 | --- | --- | --- | 
-| DSC Kisii University | Kisii, Kenya | [Live Here](https://dsc-kisiiuni.firebaseapp.com/) |
-| DSC Taita Taveta University | Taita Taveta, Kenya | [Live Here](https://dsc-ttu.firebaseapp.com/) |
-| DSC Bayero University Kano | Kano, Nigeria | [Live Here](https://dscbuk.club/) |
+| DSC Kisii University | Kenya | [Live Here](https://dsc-kisiiuni.firebaseapp.com/) |
+| DSC Taita Taveta University | Kenya | [Live Here](https://dsc-ttu.firebaseapp.com/) |
+| DSC Bayero University Kano | Nigeria | [Live Here](https://dscbuk.club/) |
 | DSC Yabatech | Nigeria | [Live Here](https://dscyabatech.firebaseapp.com/) |
 | SemaPay | Kenya | [Live Here](https://semapay.co.ke/) |
-| DSC University of Nairobi | Nairobi Kenya | [Live Here](https://dsc-uon.firebaseapp.com) |
+| DSC University of Nairobi | Kenya | [Live Here](https://dsc-uon.firebaseapp.com) |
 | DSC FUTA | Nigeria | [Live Here](https://dscfuta.com) |
 | DSC IBBUL | Nigeria | [Live Here](https://dscibbul.club)
 
