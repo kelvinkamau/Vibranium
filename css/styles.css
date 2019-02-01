@@ -553,6 +553,65 @@ p {
   padding: 10px;
 }
 
+/*team card stying*/
+.card.hovercard .cardheader {
+    background: #3BC1FD;
+    background-size: cover;
+    height: 135px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+    text-align: center;
+
+}
+
+.card.hovercard .info .title h5 {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
+}
+.card.hovercard .info .title p {
+  color: #262626;
+}
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+.card.hovercard .bottom{
+    padding: 0 20px;
+    margin-bottom: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card.hovercard .bottom ul li a i{
+  color: #3BC1FD;
+}
+/*end team card stying*/
+
 .mfp-bg {
   background-color: rgba(27, 39, 51, 0.5)  ;
 }
@@ -1110,31 +1169,6 @@ hr{
           transform: translate(1px, -1px);
 }
 
-.team-item__context {
-  font-weight: 300;
-  margin-bottom: 40px;
-}
-
-.team-item__context p {
-  font-size: 22px;
-}
-
-.team-item__context img {
-  margin-bottom: 20px;
-}
-
-.team-item__thumb {
-  position: relative;
-}
-
-.team-item__image {
-  border-radius: 50%;
-  overflow: hidden;
-  width: 260px;
-  height: 260px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .section-faq .card {
   border: 0;
   margin-bottom: 30px;
@@ -1168,15 +1202,15 @@ hr{
   color: #637282;
 }
 
-.footer-widget .social-list__inline li {
+.social-list__inline li {
   margin-right: 15px;
 }
 
-.footer-widget .social-list__inline li:last-of-type {
+.social-list__inline li:last-of-type {
   margin: 0;
 }
 
-.footer-widget .social-list__inline li a {
+.social-list__inline li a {
   color: #1B2733;
   font-size: 24px;
 }
