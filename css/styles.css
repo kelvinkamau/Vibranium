@@ -1903,3 +1903,18 @@ color: black;
   }
 
 }
+
+.button {
+  background: #007BFF;
+  color: #FFFFFF;;
+  padding: 10px 22px;
+  font-size: 15px;
+  border-radius: 20px;
+
+}
+
+.button:hover {
+  background: #2F5BE7;
+  color: #FFFFFF;
+  text-decoration: none;
+}
