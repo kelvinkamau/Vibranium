@@ -5,7 +5,7 @@ html, body {
 }
 
 :root {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -74,8 +74,8 @@ h2, .h2 {
 }
 
 p {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .lead {
@@ -653,11 +653,20 @@ p {
 .custom-menu .nav-item .nav-link:hover {
   color: #1B2733;
 }
-
+.nav-item{
+  font-weight: bold;
+}
 .custom-menu__light {
   background: #fff;
 }
-
+.event-button{
+  background: #2F5BE7;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 8px 12px;
+  border-radius: 50px;
+  text-decoration: none;
+}
 .custom-menu__light .nav-link {
   color: #1B2733;
 }
