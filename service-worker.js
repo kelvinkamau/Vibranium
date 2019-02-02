@@ -6,7 +6,9 @@ self.addEventListener('fetch', function (event) {
                 console.log("fetch completed: " + event.request.url, networkResponse);
                 if (networkResponse) {
                     console.debug("updated cached page: " + event.request.url, networkResponse);
-                    cache.put(event.request, networkResponse.clone());
+                    if (event.request.method === 'GET' && networkResponse.type === 'basic') {
+                        cache.put(event.request, networkResponse.clone());
+                    }
                 }
                 return networkResponse;
             }, function (event) {
@@ -44,9 +46,6 @@ self.addEventListener('fetch', function (event) {
                             '/js/vendors/jquery.min.js',
                             '/js/vendors/owl.carousel.min.js',
                             '/js/vendors/swiper.min.js',
-                            'https://fonts.googleapis.com/css?family=Google+Sans:400,500,700|Material+Icons',
-                            'https://www.google-analytics.com/analytics.js',
-                            'https://use.fontawesome.com/releases/v5.2.80/css/all.css',
                             '/service-worker.js',
                             '/manifest.json',
                         ]);
