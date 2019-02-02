@@ -6,8 +6,7 @@ self.addEventListener('fetch', function (event) {
                 console.log("fetch completed: " + event.request.url, networkResponse);
                 if (networkResponse) {
                     console.debug("updated cached page: " + event.request.url, networkResponse);
-                    if (event.request.method === 'GET' && event.request.url.includes(event.request.referrer)) {
-                        console.error(event.request);
+                    if (event.request.method === 'GET' && networkResponse.type === 'basic') {
                         cache.put(event.request, networkResponse.clone());
                     }
                 }
