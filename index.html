@@ -40,7 +40,6 @@
         ga('send', 'pageview');
     </script>
     <!-- End Google Analytics -->
-
 </head>
 
 <body class="x-hidden has-sticky-header">
@@ -101,14 +100,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="hero-cta-group">
-                        <form id="mailform" class="hero-form cta__large">
-                            <div class="alert text-red">Thanks for joining our mailing list!!</div>
-                            <div class="input-group">
-                                <button type="submit" class="btn btn-secondary"><i class="fab fa-meetup"></i>&nbsp;Become a member</button>
-                            </div>
-                        </form>
-                    </div>
+                    <a href="#" class="hero-button"><i class="fab fa-meetup"></i> &nbsp; Become a member</a>
                 </div>
             </div>
             <div class="col-12 col-sm-5 ml-auto">
@@ -226,8 +218,7 @@
                             We always have sessions to keep you updated and mastering the latest trends in modern
                             Android development.</p>
                     </div>
-                    <a href="https://www.android.com" class="btn btn-primary btn-lg">Tutorials &nbsp;<i
-                            class="fas fa-caret-right"></i></a>
+                    <a href="https://codelabs.developers.google.com/?cat=Android" class="hero-button" target="_blank" rel="noopener noreferrer">Codelabs &nbsp; &nbsp;<i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
         </div>
@@ -246,8 +237,7 @@
                             coding experience.
                         </p>
                     </div>
-                    <a href="https://developers.google.com/web/" class="btn btn-primary btn-lg">Tutorials &nbsp;<i
-                            class="fas fa-caret-right"></i></a>
+                    <a href="https://codelabs.developers.google.com/?cat=Web" class="hero-button" target="_blank" rel="noopener noreferrer">Codelabs &nbsp; &nbsp;<i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -275,8 +265,7 @@
                             innovation and prompt rise of cloud-native applications to
                             bridges gaps between data, insight, and action</p>
                     </div>
-                    <a href="https://developers.google.com/web/" class="btn btn-primary btn-lg">Tutorials &nbsp;<i
-                            class="fas fa-caret-right"></i></a>
+                    <a href="https://developers.google.com/web/"  class="hero-button" target="_blank" rel="noopener noreferrer">Codelabs &nbsp; &nbsp;<i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
         </div>
@@ -294,8 +283,7 @@
                             users what they need without the fuss.
                         </p>
                     </div>
-                    <a href="https://developers.google.com/web/" class="btn btn-primary btn-lg">Tutorials &nbsp;<i
-                            class="fas fa-caret-right"></i></a>
+                    <a href=""  class="hero-button" target="_blank" rel="noopener noreferrer">Codelabs &nbsp; &nbsp;<i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -394,8 +382,7 @@
                                         <h6>VENUE : LH 27, Main Campus</h6>
                                         <p>We learnt how to assemble an Android Things kit and saw the temperature and barometer sensors on the kit in action</p>
                                     </div>
-                                    <a href="https://photos.app.goo.gl/PfFMTW7aohvKnWhF8" class="btn btn-primary btn-lg">Event Pictures&nbsp;&nbsp;<i
-                                            class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="past-event">EVENT PHOTOS&nbsp;&nbsp;<i class="fas fa-camera"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -414,8 +401,7 @@
                                         <h6>VENUE : LH 1, Main Campus</h6>
                                         <p>We concentrated on two parts of Flutter, that we admire most.</p>
                                     </div>
-                                    <a href="#" class="btn btn-primary btn-lg">Event
-                                        Pictures&nbsp;<i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="past-event">EVENT PHOTOS&nbsp;&nbsp;<i class="fas fa-camera"></i></a>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -429,7 +415,7 @@
                     </div>
                 </section>
 
-                <section id="hi" class="section-spacer bg-very__gray">
+                <section id="past_ones" class="section-spacer bg-very__gray">
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-sm-6">
@@ -449,8 +435,7 @@
                                         <p>We set up the Android Application Development Environment for creating,
                                             testing and debugging apps.</p>
                                     </div>
-                                    <a href="#" class="btn btn-primary btn-lg">Event Pictures&nbsp;&nbsp;<i
-                                            class="fas fa-arrow-right"></i></a>
+                                        <a href="#" class="past-event">EVENT PHOTOS&nbsp;&nbsp;<i class="fas fa-camera"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -469,8 +454,7 @@
                                         <p>One of our lead organizers was privileged to represent the community in a lead summit hosted
                                             by Google Nigeria where he also talked about goal-setting.</p>
                                     </div>
-                                    <a href="https://photos.app.goo.gl/MWNySdLxY2UCLqvQ8" class="btn btn-primary btn-lg">Event
-                                        Pictures&nbsp;<i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="past-event">EVENT PHOTOS&nbsp;&nbsp;<i class="fas fa-camera"></i></a>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -781,9 +765,7 @@
     </div>
 </footer>
 <a href="#" id="scroll" style="display: none;"><i class="fas fa-angle-up"></i></a>
-<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
-
-<script>    
+<script>
     function showIframes() {
         document.querySelectorAll('iframe').forEach(iframe => {
             iframe.src = iframe.dataset.urllink;
@@ -803,6 +785,7 @@
         );
     }
 </script>
+<script src="js/ScrambleText.js"></script>
 <script src="js/vendors/jquery.min.js"></script>
 <script src="js/vendors/bootstrap.bundle.min.js"></script>
 <script src="js/vendors/jquery.magnific-popup.min.js"></script>
