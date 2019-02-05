@@ -791,15 +791,15 @@
     }
     document.querySelector('a[href="#past"]').addEventListener('click', showIframes, false) 
     
-    // if ('serviceWorker' in navigator) {
-    //     window.addEventListener('load', function () {
-    //             navigator.serviceWorker.register('service-worker.js')
-    //                 .then(function () {
-    //                     console.log("Service Worker Registered,");
-    //                 });
-    //         }
-    //     );
-    // }
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+                navigator.serviceWorker.register('service-worker.js')
+                    .then(function () {
+                        console.log("Service Worker Registered,");
+                    });
+            }
+        );
+    }
 </script>
 <script src="js/ScrambleText.js"></script>
 <script src="js/vendors/jquery.min.js"></script>
