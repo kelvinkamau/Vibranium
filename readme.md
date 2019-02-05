@@ -9,15 +9,13 @@ This awesome Progressive Web App was created for Developer Student Clubs in Sub 
 ![](https://img.shields.io/badge/Built%20by-DSC%20Sub%20Saharan%20Africa-brightgreen.svg)
 ![](https://img.shields.io/github/forks/kelvinkamau/Vibranium.svg?style=social)
 ![](https://img.shields.io/github/issues/kelvinkamau/Vibranium.svg)
-![](https://img.shields.io/github/license/kelvinkamau/Vibranium.svg)
-[![](https://img.shields.io/github/languages/count/badges/shields.svg)](https://github.com/kelvinkamau/Vibranium/)
-[![](https://img.shields.io/maintenance/yes/2019.svg)]([![](https://img.shields.io/steam/collection-files/:collectionId.svg)](https://github.com/kelvinkamau/Vibranium/))
+![](https://img.shields.io/maintenance/yes/2019.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9ec27af46e31459f9c11a4c1f5ff6f71)](https://www.codacy.com/app/kamaucodes/Vibranium?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kelvinkamau/Vibranium&amp;utm_campaign=Badge_Grade)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkelvinkamau%2FVibranium.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkelvinkamau%2FVibranium?ref=badge_shield)
 
 [Live Demo 1](https://vibranium-demo.firebaseapp.com) 
 
-[Special Holiday Edition](https://kelvinkamau.github.io/Vibranium/) by [Stella Kaniaru](https://github.com/stellakaniaru)
+[Special Holiday Edition](https://github.com/kelvinkamau/Vibranium/releases/tag/v.0.2) by [Stella Kaniaru](https://github.com/stellakaniaru)
 
 ## Creators 😎
 * [DSC Sub Saharan Africa Leads](https://github.com/DSCLEADSAfrica)

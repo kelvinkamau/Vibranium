@@ -5,7 +5,7 @@ html, body {
 }
 
 :root {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -74,8 +74,8 @@ h2, .h2 {
 }
 
 p {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .lead {
@@ -653,11 +653,20 @@ p {
 .custom-menu .nav-item .nav-link:hover {
   color: #1B2733;
 }
-
+.nav-item{
+  font-weight: bold;
+}
 .custom-menu__light {
   background: #fff;
 }
-
+.event-button{
+  background: #2F5BE7;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 8px 12px;
+  border-radius: 50px;
+  text-decoration: none;
+}
 .custom-menu__light .nav-link {
   color: #1B2733;
 }
@@ -1913,8 +1922,33 @@ color: black;
 
 }
 
-.button:hover {
-  background: #2F5BE7;
+.button:hover, .hero-button:hover {
+  background: #007BFF;
   color: #FFFFFF;
   text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0, 110, 255, 0.4);
+}
+
+.hero-button {
+    background: #2F5BE7;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    color: #FFFFFF;;
+    padding: 12px 18px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.past-event{
+  border: 2px solid #007BFF;
+  background-color: transparent;
+  color: #007BFF;
+  padding: 8px 18px;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.past-event:hover{
+  text-decoration: none;
+  background: #007BFF;
+  color: #FFFFFF;
+
 }
