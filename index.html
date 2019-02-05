@@ -776,7 +776,7 @@
             }
         })
     }
-    const observer = new IntersectionObserver(intersectionObserverCallback, { rootMargin: '30px 0' });
+    const observer = new IntersectionObserver(intersectionObserverCallback, { rootMargin: '30px 0px' });
     observer.POLL_INTERVAL = 200;
     observer.USE_MUTATION_OBSERVER = false;
     document.querySelectorAll('img[data-src]').forEach(img => {
