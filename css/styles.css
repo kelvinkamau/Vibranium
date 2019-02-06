@@ -1232,15 +1232,15 @@ hr{
   color: #637282;
 }
 
-.footer-widget .social-list__inline li {
+.social-list__inline li {
   margin-right: 15px;
 }
 
-.footer-widget .social-list__inline li:last-of-type {
+.social-list__inline li:last-of-type {
   margin: 0;
 }
 
-.footer-widget .social-list__inline li a {
+.social-list__inline li a {
   color: #1B2733;
   font-size: 24px;
 }
