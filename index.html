@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="DSC University Name"/>
     <meta name="description" content="Developer Student Clubs (DSC)a is a Google Developers program for university students to learn mobile and web development skills.">
-    <meta name="keywords" content="dsc, university name, kelvin kamau,google developers, sub saharan africa, kenya, computer science"/>
-
+    <meta name="keywords" content="dsc, university name,google developers, sub saharan africa, kenya, computer science"/>
     <link href="css/ionicons.min.css" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#2F5BE7"/>
@@ -40,6 +39,7 @@
         ga('send', 'pageview');
     </script>
     <!-- End Google Analytics -->
+
 </head>
 
 <body class="x-hidden has-sticky-header">
@@ -76,7 +76,7 @@
                 </li>
             </ul>
             <div class="custom-menu__right">
-                <a href="#" class="event-button" target="_blank">Next Event</a>
+                <a href="#" class="event-btn" rel="noopener noreferrer" target="_blank">Next Event</a>
             </div>
         </div>
     </div>
@@ -321,7 +321,7 @@
                                 <p class="tagging intermediate float-right">Intermediate</p>
                                 <h5 class="card-title">Firebase for Web</h5>
                                 <p class="card-text">
-                                    <strong>DATE :</strong> 16th Feb 2019<br>
+                                    <strong>DATE :</strong> 16<sup>th</sup> Feb 2019<br>
                                     <strong>VENUE :</strong>  LH 27, Main Campus<br>
                                      <strong>TIME :</strong>  0900hrs - 1300hrs
                                 </p>
@@ -337,7 +337,7 @@
                                 <p class="tagging expert float-right">Expert</p>
                                 <h5 class="card-title">Firebase for Android</h5>
                                 <p class="card-text">
-                                    <strong>DATE :</strong> 23rd Feb 2019<br>
+                                    <strong>DATE :</strong> 23<sup>rd</sup> Feb 2019<br>
                                     <strong>VENUE :</strong>  LH 27, Main Campus<br>
                                     <strong>TIME :</strong>  0900hrs - 1300hrs
                                 </p>
@@ -353,7 +353,7 @@
                                 <p class="tagging beginner float-right">Beginner</p>
                                 <h5 class="card-title">Raspberry Pi Jam</h5>
                                 <p class="card-text">
-                                    <strong>DATE :</strong> 2nd March 2019<br>
+                                    <strong>DATE :</strong> 2<sup>nd</sup> March 2019<br>
                                     <strong>VENUE :</strong>  LH 27, Main Campus<br>
                                     <strong>TIME :</strong>  0900hrs - 1300hrs
                                 </p>
@@ -399,7 +399,7 @@
                                         <hr>
                                         <h6>DATE : 6<sup>th</sup> Aug 2018</h6>
                                         <h6>VENUE : LH 1, Main Campus</h6>
-                                        <p>We concentrated on two parts of Flutter, that we admire most.</p>
+                                        <p>We concentrated on two parts of Flutter, that we admire most : The developer experience and brand design first development</p>
                                     </div>
                                     <a href="#" class="past-event">EVENT PHOTOS&nbsp;&nbsp;<i class="fas fa-camera"></i></a>
                                 </div>
@@ -785,8 +785,7 @@
     function showIframes() {
         document.querySelectorAll('iframe').forEach(iframe => {
             iframe.src = iframe.dataset.urllink;
-            console.log('Nah.....');
-        })
+        });
         document.querySelector('a[href="#past"]').removeEventListener('click', false) 
     }
     document.querySelector('a[href="#past"]').addEventListener('click', showIframes, false) 
@@ -801,7 +800,6 @@
         );
     }
 </script>
-<script src="js/ScrambleText.js"></script>
 <script src="js/vendors/jquery.min.js"></script>
 <script src="js/vendors/bootstrap.bundle.min.js"></script>
 <script src="js/vendors/jquery.magnific-popup.min.js"></script>

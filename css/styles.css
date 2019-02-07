@@ -1177,6 +1177,11 @@ hr{
   color: #637282;
 }
 
+.footer-widget ul li a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
 .footer-widget .social-list__inline li {
   margin-right: 15px;
 }
@@ -1207,49 +1212,6 @@ hr{
   display: inline-flex;
 }
 
-/*----------------------------------------------------------------
-[COLOR CODES]
-
-==========================
-CUSTOM COLOURS
-==========================
-primary: #3BC1FD;
-secondary: #2F5BE7;
-primary-type(text): #1B2733;
-secondary-type(text): #637282;
-
-==========================
-BOOTSTRAP BUILT-IN COLOURS
-==========================
-white: #ffffff;
-grey-100: #FAFAFA;
-warning: #FD7D44;
-danger: #dc3545;
-success: #28a745;
-info:#17a2b8;
-grey: #6c757d;
-pink: #e83e8c;
-teal: #20c997;
-blue: #007bff;
-indigo: #6610f2;
-purple: #6f42c1;
-red: #dc3545;
-orange: #fd7e14;
-yellow: #ffc107;
-green: #28a745;
-cyan: #17a2b8;
-gray-dark: #343a40;
-light: #f8f9fa;
-dark: #343a40;
-
-----------------------------------------------------------------*/
-/*
-====================================================
-
-BACKGROUND COLORS AND SHAPES COLORS
-
-====================================================
-*/
 .bg-blue {
   background: #2F5BE7  ;
 }
@@ -1922,20 +1884,26 @@ color: black;
 
 }
 
-.button:hover, .hero-button:hover {
+.button:hover, .hero-button:hover, .event-btn:hover {
   background: #007BFF;
   color: #FFFFFF;
   text-decoration: none;
   box-shadow: 0 3px 6px rgba(0, 110, 255, 0.4);
 }
 
-.hero-button {
+.hero-button, .event-btn {
     background: #2F5BE7;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     color: #FFFFFF;;
     padding: 12px 18px;
     font-size: 14px;
     border-radius: 2px;
+}
+
+.event-btn {
+  padding: 8px 12px;
+  border-radius: 50px;
+  font-weight: bold;
 }
 .past-event{
   border: 2px solid #007BFF;
