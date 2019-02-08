@@ -1075,75 +1075,184 @@ hr{
   margin-top: 5px;
 }
 
-.team-slide-inner {
-  height: 100%  ;
+/*carousel styling*/
+.carousel-control-next-i{
+      position: relative;
+      left: 60%;
+      vertical-align: middle;
+      text-align: center;
+      line-height:45px; 
+      background-color: #3BC1FD;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      right: 350px;
+    }
+
+    .carousel-control-prev-i{
+      position: relative;
+      right: 60%;
+      vertical-align: middle;
+      text-align: center;
+      line-height:45px; 
+      background-color: #3BC1FD;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      
+    }
+
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carouselPrograms .carousel-inner .active,
+    .carouselPrograms .carousel-inner .active + .carousel-item,
+    .carouselPrograms .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+
+    .carouselPrograms .carousel-inner .carousel-item-next,
+    .carouselPrograms .carousel-inner .carousel-item-prev {
+        position: relative;
+        right: 300px;
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-control-next-i{
+      position: relative;
+      left: 60%;
+      vertical-align: middle;
+      text-align: center;
+      line-height:45px; 
+      background-color: #3BC1FD;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      right: 350px;
+    }
+
+    .carousel-control-prev-i{
+      position: relative;
+      right: 60%;
+      vertical-align: middle;
+      text-align: center;
+      line-height:45px; 
+      background-color: #3BC1FD;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      left: -100px;
+    }
+
+    .carouselPrograms .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* left or forward direction */
+    .carouselPrograms .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    /* farthest right hidden item must be abso position for animations */
+    .carouselPrograms .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* right or prev direction */
+    .carouselPrograms .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
 }
 
-.team-slider__indicators {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+/*end carousel styling*/
+
+/*team card stying*/
+.card.hovercard .cardheader {
+    background: #3BC1FD;
+    background-size: cover;
+    height: 135px;
 }
 
-.team-slider__indicators .owl-dot {
-  border-radius: 1px  ;
-  width: 4px;
-  height: 50px;
-  background: rgba(255, 255, 255, 0.1);
-  margin-left: auto;
-  margin-right: auto;
-  cursor: pointer;
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
 }
 
-.team-slider__indicators .owl-dot.active {
-  background: #fff;
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
 }
 
-.team-item .btn-light {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+    text-align: center;
+
 }
 
-.team-item .btn-light .u-icon {
-  background: #3BC1FD;
-  margin-left: 10px;
+.card.hovercard .info .title h5 {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
 }
+.card.hovercard .info .title p {
+  color: #262626;
+}
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+.card.hovercard .bottom{
+    padding: 0 20px;
+    margin-bottom: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card.hovercard .bottom ul li a i{
+  color: #3BC1FD;
+}
+/*end team card stying*/
 
-.team-item .btn-light:hover {
-  -webkit-box-shadow: -5px 5px #3BC1FD;
-          box-shadow: -5px 5px #3BC1FD;
-  -webkit-transform: translate(1px, -1px);
-          transform: translate(1px, -1px);
-}
 
-.team-item__context {
-  font-weight: 300;
-  margin-bottom: 40px;
-}
-
-.team-item__context p {
-  font-size: 22px;
-}
-
-.team-item__context img {
-  margin-bottom: 20px;
-}
-
-.team-item__thumb {
-  position: relative;
-}
-
-.team-item__image {
-  border-radius: 50%;
-  overflow: hidden;
-  width: 260px;
-  height: 260px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .section-faq .card {
   border: 0;
   margin-bottom: 30px;
@@ -1182,19 +1291,6 @@ hr{
   color: #000000;
 }
 
-.footer-widget .social-list__inline li {
-  margin-right: 15px;
-}
-
-.footer-widget .social-list__inline li:last-of-type {
-  margin: 0;
-}
-
-.footer-widget .social-list__inline li a {
-  color: #1B2733;
-  font-size: 24px;
-}
-
 .footer-widget__title {
   margin-bottom: 15px;
   font-size: 18px;
@@ -1210,6 +1306,19 @@ hr{
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+}
+
+.social-list__inline li {
+  margin-right: 15px;
+}
+
+.social-list__inline li:last-of-type {
+  margin: 0;
+}
+
+.social-list__inline li a {
+  color: #1B2733;
+  font-size: 24px;
 }
 
 .bg-blue {
