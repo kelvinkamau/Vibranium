@@ -1194,10 +1194,18 @@ hr{
 /*end carousel styling*/
 
 /*team card stying*/
+
+.card.hovercard{
+  border: 0px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+}
 .card.hovercard .cardheader {
     background: #3BC1FD;
     background-size: cover;
     height: 150px;
+  border: 0px;
+  border-radius: 8px 8px 0 0;
 }
 
 .card.hovercard .avatar {
@@ -1227,16 +1235,20 @@ hr{
 
 .card.hovercard .info .title h5 {
     margin-bottom: 4px;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1;
     color: #262626;
 }
 .card.hovercard .info .title p {
   color: #262626;
 }
+
+.card.hovercard .info .title p {
+  border-radius: 25px;
+}
 .card.hovercard .info .desc {
     overflow: hidden;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
     color: #737373;
     text-overflow: ellipsis;
