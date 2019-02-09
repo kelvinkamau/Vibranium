@@ -1197,7 +1197,7 @@ hr{
 .card.hovercard .cardheader {
     background: #3BC1FD;
     background-size: cover;
-    height: 135px;
+    height: 150px;
 }
 
 .card.hovercard .avatar {
@@ -1220,7 +1220,7 @@ hr{
 }
 
 .card.hovercard .info {
-    padding: 4px 8px 10px;
+    padding: 4px 8px 2px;
     text-align: center;
 
 }
