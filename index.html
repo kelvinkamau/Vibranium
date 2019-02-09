@@ -856,7 +856,7 @@
 </footer>
 <a href="#" id="scroll" style="display: none;"><i class="fas fa-angle-up"></i></a>
 <script>
-    function intersectionObserverCallback(imageEntries, observer) {
+    function imageIntersectionObserverCallback(imageEntries, observer) {
         imageEntries.forEach(imgEntry => {
             if (imgEntry.isIntersecting) {
                 imgEntry.target.setAttribute('src', imgEntry.target.dataset.src);
@@ -864,23 +864,31 @@
             }
         })
     }
-    const observer = new IntersectionObserver(intersectionObserverCallback, { rootMargin: '30px 0px' });
-    observer.POLL_INTERVAL = 200;
-    observer.USE_MUTATION_OBSERVER = false;
+    const imageObserver = new IntersectionObserver(imageIntersectionObserverCallback, { rootMargin: '30px 0px' });
+    imageObserver.POLL_INTERVAL = 200;
+    imageObserver.USE_MUTATION_OBSERVER = false;
     document.querySelectorAll('img[data-src]').forEach(img => {
-        observer.observe(img);
+        imageObserver.observe(img);
     })
 </script>
 <script>
-    function showIframes() {
-        document.querySelectorAll('iframe').forEach(iframe => {
-            iframe.src = iframe.dataset.urllink;
-        });
-        document.querySelector('a[href="#past"]').removeEventListener('click', false) 
+    function iframeObserverCallback(iframeEntries, observer) {
+        iframeEntries.forEach(iframe => {
+            if (iframe.isIntersecting && window.matchMedia('(min-width: 450px)').matches) {
+                iframe.target.setAttribute('src', iframe.target.dataset.urllink);
+                observer.unobserve(iframe.target);
+            }
+        })
     }
-    document.querySelector('a[href="#past"]').addEventListener('click', showIframes, false)
-    
-   if ('serviceWorker' in navigator) {
+
+    const iframeObserver = new IntersectionObserver(iframeObserverCallback, { rootMargin: '30px 0px' });
+    iframeObserver.POLL_INTERVAL = 200;
+    iframeObserver.USE_MUTATION_OBSERVER = false;
+    document.querySelectorAll('iframe[data-urllink]').forEach(img => {
+        iframeObserver.observe(img);
+    })
+
+    if ('serviceWorker' in navigator) {
         window.addEventListener('load', function () {
                 navigator.serviceWorker.register('service-worker.js')
                     .then(function () {
