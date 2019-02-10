@@ -1076,31 +1076,38 @@ hr{
 }
 
 /*carousel styling*/
-.carousel-control-next-i{
-      position: relative;
-      left: 60%;
-      vertical-align: middle;
-      text-align: center;
-      line-height:45px; 
-      background-color: #3BC1FD;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      right: 350px;
-    }
-
-    .carousel-control-prev-i{
-      position: relative;
-      right: 60%;
-      vertical-align: middle;
-      text-align: center;
-      line-height:45px; 
-      background-color: #3BC1FD;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      
-    }
+@media (min-width: 320px) and (max-width: 600px){
+  .carousel-control-next,
+   .carousel-control-prev {
+       width: 10%;
+       height:10%;
+   }
+  
+.carousel-control-next-i {
+    position: relative;
+    left: 1%;
+    top: 500%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 45px;
+    background-color: #3BC1FD;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  .carousel-control-prev-i {
+    position: relative;
+    left: 1%;
+    top: 500%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 45px;
+    background-color: #3BC1FD;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+}
 
 @media (min-width: 768px) {
 
@@ -1124,31 +1131,30 @@ hr{
         transform: translate3d(0, 0, 0);
     }
     .carousel-control-next-i{
-      position: relative;
-      left: 60%;
-      vertical-align: middle;
-      text-align: center;
-      line-height:45px; 
-      background-color: #3BC1FD;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      right: 350px;
-    }
+     position: relative;
+     top: 500%;
+     vertical-align: middle;
+     text-align: center;
+     line-height:45px;
+     background-color: #3BC1FD;
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     
+   }
 
-    .carousel-control-prev-i{
-      position: relative;
-      right: 60%;
-      vertical-align: middle;
-      text-align: center;
-      line-height:45px; 
-      background-color: #3BC1FD;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      left: -100px;
-    }
-
+   .carousel-control-prev-i{
+     position: relative;
+    top: 500%;
+     vertical-align: middle;
+     text-align: center;
+     line-height:45px;
+     background-color: #3BC1FD;
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     
+   }
     .carouselPrograms .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
         position: absolute;
         top: 0;
