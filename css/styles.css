@@ -1342,7 +1342,7 @@ hr{
 }
 
 .bg-blue {
-  background: #2F5BE7  ;
+  background: #2F5BE7;
 }
 
 .bg-blue h1, .bg-blue h2, .bg-blue h3, .bg-blue h4, .bg-blue h5, .bg-blue h6,
@@ -2066,6 +2066,8 @@ color: black;
   -webkit-text-stroke: 2px #189E59;
   color: transparent;
 }
-
+.content-title{
+  font-size: 27px;
+}
 
 
