@@ -1076,7 +1076,8 @@ hr{
 }
 
 /*carousel styling*/
-@media (min-width: 320px) and (max-width: 600px){
+@media (min-width: 320px) and (max-width: 768px){
+  
   .carousel-control-next,
    .carousel-control-prev {
        width: 10%;
@@ -1132,7 +1133,6 @@ hr{
     }
     .carousel-control-next-i{
      position: relative;
-     top: 500%;
      vertical-align: middle;
      text-align: center;
      line-height:45px;
@@ -1145,7 +1145,6 @@ hr{
 
    .carousel-control-prev-i{
      position: relative;
-    top: 500%;
      vertical-align: middle;
      text-align: center;
      line-height:45px;
