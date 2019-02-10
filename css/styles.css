@@ -1076,38 +1076,40 @@ hr{
 }
 
 /*carousel styling*/
+.carousel-control-next-i:hover, .carousel-control-prev-i:hover{
+    background-color: #fff;
+    color: #3BC1FD;
+    -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)"
+}
+
 @media (min-width: 320px) and (max-width: 768px){
-  
+
   .carousel-control-next,
    .carousel-control-prev {
        width: 10%;
        height:10%;
    }
   
-.carousel-control-next-i {
+.carousel-control-next-i,  .carousel-control-prev-i {
     position: relative;
     left: 1%;
     top: 500%;
     vertical-align: middle;
     text-align: center;
     line-height: 45px;
-    background-color: #3BC1FD;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+     background-color: #2F5BE7;
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+      -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
-  .carousel-control-prev-i {
-    position: relative;
-    left: 1%;
-    top: 500%;
-    vertical-align: middle;
-    text-align: center;
-    line-height: 45px;
-    background-color: #3BC1FD;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-}
+  
 }
 
 @media (min-width: 768px) {
@@ -1131,29 +1133,21 @@ hr{
         right: 300px;
         transform: translate3d(0, 0, 0);
     }
-    .carousel-control-next-i{
+    .carousel-control-next-i, .carousel-control-prev-i{
      position: relative;
      vertical-align: middle;
      text-align: center;
      line-height:45px;
-     background-color: #3BC1FD;
+     background-color: #2F5BE7;
      border-radius: 50%;
      width: 40px;
      height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
      
    }
 
-   .carousel-control-prev-i{
-     position: relative;
-     vertical-align: middle;
-     text-align: center;
-     line-height:45px;
-     background-color: #3BC1FD;
-     border-radius: 50%;
-     width: 40px;
-     height: 40px;
-     
-   }
     .carouselPrograms .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
         position: absolute;
         top: 0;
