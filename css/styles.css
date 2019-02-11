@@ -1086,11 +1086,11 @@ hr{
   -ms-filter: "alpha(opacity=100)"
 }
 
-@media (min-width: 320px) and (max-width: 768px){
+@media (min-width: 240px) and (max-width: 768px){
 
   .carousel-control-next,
   .carousel-control-prev {
-    width: 10%;
+    width: 15%;
     height:10%;
   }
 
