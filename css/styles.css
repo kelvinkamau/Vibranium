@@ -776,6 +776,11 @@ p {
   padding-right: 0;
 }
 
+@media (min-width: 240px) and (max-width: 768px){
+  .ml-pic{
+    order:-1;
+  }
+}
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
