@@ -31,7 +31,7 @@ self.addEventListener('fetch', function (event) {
                             '/images/assets/events/fba.png',
                             '/images/assets/events/fbw.png',
                             '/images/assets/events/rpj.png',
-                            '/images/assets/hero-1-2.png',
+                            '/images/assets/diversity.png',
                             '/images/assets/logo2.png',
                             '/images/assets/team/avatar.png',
                             '/images/assets/technologies/android.png',
