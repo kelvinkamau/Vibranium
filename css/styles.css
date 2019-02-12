@@ -1104,10 +1104,10 @@ hr{
   .carousel-control-next-i,  .carousel-control-prev-i {
     position: relative;
     left: 1%;
-    top: 500%;
+    top: 450%;
     vertical-align: middle;
     text-align: center;
-    line-height: 45px;
+    line-height: 43px;
     background-color: #2F5BE7;
     border-radius: 50%;
     width: 40px;
@@ -1144,11 +1144,11 @@ hr{
     position: relative;
     vertical-align: middle;
     text-align: center;
-    line-height:45px;
+    line-height: 38px;
     background-color: #2F5BE7;
     border-radius: 50%;
     width: 40px;
-    height: 40px;
+    height: 35px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -1207,10 +1207,10 @@ hr{
 
 }
 .card.hovercard .cardheader {
-  background: #3BC1FD;
+  background: #2F5BE7;
   background-size: cover;
-  height: 150px;
-  border: 0px;
+  height: 130px;
+  border: 0;
   border-radius: 8px 8px 0 0;
 }
 
@@ -1240,8 +1240,8 @@ hr{
 }
 
 .card.hovercard .info .title h5 {
-  margin-bottom: 4px;
-  font-size: 22px;
+  margin-bottom: 2px;
+  font-size: 18px;
   line-height: 1;
   color: #262626;
 }
@@ -1261,12 +1261,14 @@ hr{
 }
 .card.hovercard .bottom{
   padding: 0 20px;
-  margin-bottom: 17px;
+  margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
 }
 .card.hovercard .bottom ul li a i{
-  color: #3BC1FD;
+  color: #2F5BE7;
+  font-size: 16px;
+  margin: 0;
 }
 /*end team card stying*/
 
