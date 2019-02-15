@@ -3,8 +3,8 @@
   "display": "standalone",
   "orientation":"portrait",
   "theme_color": "#2F5BE7",
-  "short_name": "DSC Kisii",
-  "name": "DSC Kisii University",
+  "short_name": "DSC UNIBEN",
+  "name": "DSC UNIBEN",
   "description": "Developer Student Clubs is a Google Developers program for university students to learn mobile and web development skills",
   "lang": "en-US",
   "icons": [

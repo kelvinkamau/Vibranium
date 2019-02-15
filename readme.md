@@ -1,7 +1,3 @@
-<p align="center">
-<img width="300" height="140"  src="https://github.com/kelvinkamau/Vibranium/blob/master/images/vibranium.png">
-</p>
-
 # Project Vibranium 🔥
 This awesome Progressive Web App was created for Developer Student Clubs in Sub Saharan Africa as a profile and a platform to showcase what they're upto in events, outreach to local businesses and showcases and most importantly their success stories to the world.
 
