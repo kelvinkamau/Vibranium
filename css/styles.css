@@ -478,16 +478,80 @@ p {
   border-top-color: #2F5BE7  ;
   opacity: 1;
 }
-.event-card {
+.event-card, .project-card{
   -webkit-box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
   box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
   border-radius: 5px;
   margin: 0 auto 20px;
 }
-.course-card, .project-card{
+.course-card{
   width: 21rem;
   margin: 0 auto 20px;
 }
+
+/*project card syling*/
+@media (min-width: 240px) and (max-width: 770px){
+  .project-card {
+    margin-bottom: 50px;
+    width: 21rem;
+  
+  }
+}
+
+.project-card .cardheader .img-top {
+    position: relative;
+    top: -20px;
+    float: left;
+    margin-bottom: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(20%);
+    
+}
+
+.project-card .cardheader img {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    border-radius: 25%;
+    border: 2px solid rgba(255,255,255,0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .cardheader h5{
+  float: right;
+  padding: 30px;
+}
+
+.project-tag{
+  display: flex;
+  justify-content: space-around;
+}
+
+.stack1{
+  background-color: #155724;
+  color: #d4edda;
+  border-color: #fff;
+}
+
+.stack2{
+  background-color: #004085;
+  color: #fff;
+  border-color: #b8daff;
+}
+
+.stack3{
+  background-color: #383d41;
+  color: #fff;
+  border-color: #d6d8db;
+}
+
+.project-card .btn{
+border-radius: 25px;
+}
+/*end project card styling*/
+
 .card{
   float: none;
   border-radius: 8px;
@@ -518,9 +582,7 @@ p {
   color: #FD7D44;
 }
 
-.project-card .btn{
 
-}
 .feature-card {
   -webkit-box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
   box-shadow: 0 0 15px rgba(99, 114, 130, 0.3);
