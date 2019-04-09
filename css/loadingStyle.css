@@ -1,0 +1,44 @@
+html, body {
+  background: #252627;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.center {
+  position: relative;
+  color: rgb(209, 172, 7);
+  background: #252627;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+.box{
+  position: relative;
+  height: 70px;
+  background: rgb(209, 172, 7);
+  width:70px; 
+  margin: 0 auto;
+  margin-top: 150px;
+  animation: spin 5s infinite;
+}
+
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+
+
