@@ -1,0 +1,59 @@
+.errorPage{
+  background-color:#161B21;
+  text-align: center; 
+  padding-top: 150px;
+}
+
+.err{
+  color:#F4A950;
+  font-size: 40px;
+  font-family: 'Merienda', cursive;
+}
+ 
+.read{
+  color: green;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#blink{
+  position: relative;
+  animation-name: blink;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode:forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+    0%,100%{
+      color:#CC5803;
+    }
+    20%{
+      color:#E2711D;
+    }
+    40%{
+      color:#FF9505;
+    }
+    60%{
+      color:#FFB527;
+    }
+    80%{
+      color:#FFC971;
+    }
+}
+.errorButton{
+  font-size: 16px;
+   color: purple;
+}
+.btn{
+	padding:10px 20px;
+	color:#F4A950;
+	text-decoration: none;
+	border:1px solid transparent;
+
+}
+.btn:hover{
+	background-color:#F4A950;
+	color:#161B21;
+}
