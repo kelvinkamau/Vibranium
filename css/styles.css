@@ -2142,4 +2142,16 @@ hr{
   font-size: 27px;
 }
 
+.error-block{
+  text-align: center;
+}
+.err-img{
+  border-radius: 10%;
+}
 
+.err{
+  padding: 20px;
+}
+.err-p{
+  font-size: 60px;
+}
