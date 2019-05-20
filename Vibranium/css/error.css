@@ -1,17 +1,17 @@
 .errorPage{
-  background-color:#161B21;
+  background-color:white;
   text-align: center; 
   padding-top: 150px;
 }
 
 .err{
-  color:#F4A950;
+  color:deepskyblue;
   font-size: 40px;
-  font-family: 'Merienda', cursive;
+font-family: 'Libre Baskerville', serif;
 }
  
 .read{
-  color: green;
+  color: #040c2c;
   font-size: 20px;
   font-family: sans-serif;
 }
@@ -27,33 +27,30 @@
 
 @keyframes blink{
     0%,100%{
-      color:#CC5803;
-    }
-    20%{
-      color:#E2711D;
+      color:midnightblue;
     }
     40%{
-      color:#FF9505;
+      color:navy;
     }
     60%{
-      color:#FFB527;
+      color:darkblue;
     }
     80%{
-      color:#FFC971;
+      color:#040c2c;
     }
 }
 .errorButton{
   font-size: 16px;
-   color: purple;
+   color: black;
 }
 .btn{
 	padding:10px 20px;
-	color:#F4A950;
+	color:black;
 	text-decoration: none;
 	border:1px solid transparent;
 
 }
 .btn:hover{
-	background-color:#F4A950;
+	background-color:deepskyblue;
 	color:#161B21;
 }
