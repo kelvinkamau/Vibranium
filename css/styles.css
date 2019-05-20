@@ -556,9 +556,7 @@ border-radius: 25px;
   float: none;
   border-radius: 8px;
 }
-.event-card{
 
-}
 .tagging{
   display: inline-flex;
   border-radius: 15px;
@@ -996,7 +994,6 @@ border-radius: 25px;
 
 .screen-slider__item img {
   max-width: 100%;
-  vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -2142,4 +2139,16 @@ hr{
   font-size: 27px;
 }
 
+.error-block{
+  text-align: center;
+}
+.err-img{
+  border-radius: 10%;
+}
 
+.err{
+  padding: 20px;
+}
+.err-p{
+  font-size: 60px;
+}
