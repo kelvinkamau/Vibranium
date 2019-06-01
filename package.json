@@ -1,0 +1,34 @@
+{
+  "name": "vibranium",
+  "version": "1.0.0",
+  "description": "Website for DSC SubSaharan Africa",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx gulp build",
+    "dev": "npx gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvinkamau/Vibranium.git"
+  },
+  "keywords": [
+    "dsc",
+    "unilag"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelvinkamau/Vibranium/issues"
+  },
+  "homepage": "https://github.com/kelvinkamau/Vibranium/#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify-es": "^1.0.4"
+  }
+}
