@@ -27,6 +27,12 @@ This awesome Progressive Web App was created for Developer Student Clubs in Sub 
 * Publish your site
 * Share the goodness of this awesome web template by sharing it & leaving a star on the repo
 
+# Running it locally 🔩
+* You might need to have [NPM](https://nodejs.org/en/download/) or [yarn](https://yarnpkg.com/en/docs/install)
+* In the project directory, run `npm install` or `yarn install` depending on which you have
+* Then run `npm run dev` and open your browser to `http://localhost:8080` to start working on the project
+* To build the project run `npm run build`
+
 ### Firebase Hosting
 * Install Node.js (v8.9.4 or above)
 * launch command prompt/terminal 
