@@ -13,9 +13,10 @@ This awesome Progressive Web App was created for Developer Student Clubs in Sub 
 ![](https://img.shields.io/maintenance/yes/2019.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9ec27af46e31459f9c11a4c1f5ff6f71)](https://www.codacy.com/app/kamaucodes/Vibranium?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kelvinkamau/Vibranium&amp;utm_campaign=Badge_Grade)
 
-[Live Demo](https://kelvinkamau.github.io/Vibranium/) 
-
-[Holiday Edition](https://github.com/kelvinkamau/Vibranium/releases/tag/v.0.2) by [Stella Kaniaru](https://github.com/stellakaniaru)
+| Name | Source Code| Demo |
+| --- | --- | --- |
+| Dark Theme | [GitHub](https://github.com/kelvinkamau/vibranium-dark) | [Preview](https://devclub-kisii.firebaseapp.com) |
+|Light Theme | [GitHub](https://github.com/kelvinkamau/Vibranium) | [Preview](kelvinkamau.github.io/Vibranium) |
 
 ## Creators 👨‍💻
 * [DSC Sub Saharan Africa Leads](https://github.com/DSCLEADSAfrica)
@@ -84,7 +85,7 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 
 | Community Name | Location | Web App Link | 
 | --- | --- | --- | 
-| DSC Kisii University | Kenya | [Live Here](https://dsc-kisiiuni.firebaseapp.com/) |
+| DSC Kisii University | Kenya | [Live Here](https://devclub-kisii.firebaseapp.com/) |
 | DSC Taita Taveta University | Kenya | [Live Here](https://dsc-ttu.firebaseapp.com/) |
 | DSC Bayero University Kano | Nigeria | [Live Here](https://dscbuk.club/) |
 | DSC Yabatech | Nigeria | [Live Here](https://dscyabatech.firebaseapp.com/) |
