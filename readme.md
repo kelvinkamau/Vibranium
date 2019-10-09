@@ -93,6 +93,7 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 | DSC University of Nairobi | Kenya | [Live Here](https://dsc-uon.firebaseapp.com) |
 | DSC FUTA | Nigeria | [Live Here](https://dscfuta.com) |
 | DSC IBBUL | Nigeria | [Live Here](https://dscibbul.club) |
+| DSC Unilag | Nigeria | [Live Here](https://dscunilag.dev) |
 
 ## License
 ```
