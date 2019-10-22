@@ -16,7 +16,7 @@ This awesome Progressive Web App was created for Developer Student Clubs in Sub 
 | Name | Source Code| Demo |
 | --- | --- | --- |
 | Dark Theme | [GitHub](https://github.com/kelvinkamau/vibranium-dark) | [Preview](https://devclub-kisii.firebaseapp.com) |
-|Light Theme | [GitHub](https://github.com/kelvinkamau/Vibranium) | [Preview](kelvinkamau.github.io/Vibranium) |
+|Light Theme | [GitHub](https://github.com/kelvinkamau/Vibranium) | [Preview](https://kelvinkamau.github.io/Vibranium) |
 
 ## Creators 👨‍💻
 * [DSC Sub Saharan Africa Leads](https://github.com/DSCLEADSAfrica)
