@@ -86,7 +86,7 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 | Community Name | Location | Web App Link | 
 | --- | --- | --- | 
 | DSC Kisii University | Kenya | [Live Here](https://devclub-kisii.firebaseapp.com/) |
-| DSC Taita Taveta University | Kenya | [Live Here](https://dsc-ttu.firebaseapp.com/) |
+| DSC Taita Taveta University | Kenya | [Live Here](https://dsc-at-ttu.firebaseapp.com/) |
 | DSC Bayero University Kano | Nigeria | [Live Here](https://dscbuk.club/) |
 | DSC Yabatech | Nigeria | [Live Here](https://dscyabatech.firebaseapp.com/) |
 | SemaPay | Kenya | [Live Here](https://semapay.co.ke/) |
