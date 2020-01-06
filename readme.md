@@ -96,6 +96,7 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 | DSC Purdue University | Indiana, USA | [Live Here](https://dscpurdue.org/) |
 | DSC Univesity of Lagos| Nigeria | [Live Here](https://dscunilag.dev/)|
 | DSC Ekiti State University | Nigeria | [Live Here](https://dsceksu.herokuapp.com/)|
+| DSC Imo State University | Nigeria | [Live Here](https://dscimsu-69385.firebaseapp.com/)|
 
 ## License
 ```
