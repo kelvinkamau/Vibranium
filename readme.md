@@ -97,6 +97,7 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 | DSC Univesity of Lagos| Nigeria | [Live Here](https://dscunilag.dev/)|
 | DSC Ekiti State University | Nigeria | [Live Here](https://dsceksu.herokuapp.com/)|
 | DSC Imo State University | Nigeria | [Live Here](https://dscimsu-69385.firebaseapp.com/)|
+| DSC Dominion University College, Accra | Ghana | [Live Here](https://dsc-duc.web.app/)|
 
 ## License
 ```
