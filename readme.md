@@ -3,7 +3,7 @@
 </p>
 
 # Project Vibranium 🔥
-This awesome Progressive Web App was created for Developer Student Clubs in Sub Saharan Africa as a profile and a platform to showcase what they're upto in events, outreach to local businesses and showcases and most importantly their success stories to the world.
+This awesome Progressive Web Application was created for Developer Student Clubs in Sub Saharan Africa as a profile and a platform to showcase what they're upto in events, outreach to local businesses and showcases and most importantly their success stories to the world.
 
 
 ![](https://img.shields.io/badge/Built%20by-DSC%20Sub%20Saharan%20Africa-brightgreen.svg)
@@ -23,16 +23,16 @@ This awesome Progressive Web App was created for Developer Student Clubs in Sub 
 
 
 ## Usage 🛠
-* Fork repository and clone it locally
+* Fork repository and clone it locally using ```git clone git-path``` on the terminal
 * Customize the content inside the following files only ```index.html```, ```learn.html```, ```project.html``` & ```manifest.json```
 * Publish your site
-* Share the goodness of this awesome web template by sharing it & leaving a star on the repo
+* Share the goodness of this awesome web template by sharing it & leaving a star on the repo [here](https://github.com/kelvinkamau/Vibranium/stargazers)
 
 # Running it locally 🔩
-* You might need to have [NPM](https://nodejs.org/en/download/) or [yarn](https://yarnpkg.com/en/docs/install)
-* In the project directory, run `npm install` or `yarn install` depending on which you have
+* You might need to have [NPM](https://nodejs.org/en/download/) or [yarn](https://yarnpkg.com/en/docs/install) or [Node in general](https://nodejs.org/en/)
+* In the project directory, run `npm install` or `yarn install` depending on which you have or that is best for you..
 * Then run `npm run dev` and open your browser to `http://localhost:8080` to start working on the project
-* To build the project run `npm run build`
+* To build the project run `npm run build`, this would generate the ```dist``` folder build
 
 ### Firebase Hosting
 * Install Node.js (v8.9.4 or above)
